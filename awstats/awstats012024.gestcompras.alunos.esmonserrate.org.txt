@@ -1,0 +1,484 @@
+AWSTATS DATA FILE 7.6 (build 20161204)
+# If you remove this file, all statistics for date 202401 will be lost/reset.
+# Last config file used to build this data file was /etc/awstats/awstats.gestcompras.alunos.esmonserrate.org.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 30
+POS_GENERAL 2088                
+POS_TIME 2761                
+POS_VISITOR 16480               
+POS_DAY 18364               
+POS_DOMAIN 3443                
+POS_LOGIN 3737                
+POS_ROBOT 3892                
+POS_WORMS 4061                
+POS_EMAILSENDER 4192                
+POS_EMAILRECEIVER 4335                
+POS_SESSION 18555               
+POS_SIDER 18761               
+POS_FILETYPES 4470                
+POS_DOWNLOADS 4715                
+POS_OS 4763                
+POS_BROWSER 4913                
+POS_SCREENSIZE 5165                
+POS_UNKNOWNREFERER 5239                
+POS_UNKNOWNREFERERBROWSER 5429                
+POS_ORIGIN 5511                
+POS_SEREFERRALS 5650                
+POS_PAGEREFS 5813                
+POS_SEARCHWORDS 5961                
+POS_KEYWORDS 6113                
+POS_MISC 2425                
+POS_ERRORS 6172                
+POS_CLUSTER 3593                
+POS_SIDER_403 16171               
+POS_SIDER_404 6314                
+POS_SIDER_400 16089               
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20240201084551 3191 887274 18642578663398
+FirstTime 0
+LastTime 20240131220456
+LastUpdate 20240201203103 3191 3181 9 0 0
+TotalVisits 42                  
+TotalUnique 33                  
+MonthHostsKnown 19                  
+MonthHostsUnknown 16                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+FlashSupport 0 0 0
+AddToFavourites 0 2 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+PDFSupport 0 0 0
+QuickTimeSupport 0 0 0
+RealPlayerSupport 0 0 0
+JavaEnabled 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+JavascriptDisabled 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 0 0 0 20 20 33759
+1 0 0 0 6 14 56391
+2 0 0 0 0 0 0
+3 0 0 0 4 4 22248
+4 0 0 0 4 4 6725
+5 0 0 0 7 7 2666
+6 0 0 0 1 1 5739
+7 0 0 0 2 2 6224
+8 82 349 8925817 9 23 16642
+9 169 610 25225933 19 104 154928
+10 208 396 5591918 25 32 35209
+11 73 148 3665677 23 151 169232
+12 0 0 0 2 2 11143
+13 30 182 2739174 248 256 342042
+14 56 491 19611169 92 182 187292
+15 158 321 7521015 25 33 98144
+16 29 115 3797251 27 30 75621
+17 0 0 0 4 6 11814
+18 0 2 0 15 17 46309
+19 0 0 0 14 15 21100
+20 1 27 505795 7 11 28658
+21 0 0 0 7 9 1978
+22 4 4 5078 11 11 8965
+23 0 0 0 1 1 5758
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 5
+ip 699 2122 64036044
+pt 90 476 13017293
+com 14 40 518176
+org 5 5 1460
+de 2 2 15854
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 1
+Discordbot/ 1 73214 20240125094014 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 9
+jpg 334 21793993 0 0
+woff2 91 2769790 0 0
+Unknown 15 4386 0 0
+php 606 3456954 0 0
+map 17 5908649 0 0
+css 391 7221930 0 0
+html 172 1126498 0 0
+png 86 4860300 0 0
+js 933 30446327 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 6
+linuxandroid 27 1
+ios_iphone 2 2
+win10 2581 788
+Unknown 15 15
+ios_ipad 3 3
+win7 17 1
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 10
+mozilla 15 15
+chrome79.0.3945.130 2 2
+chrome83.0.4103.61 17 1
+safari11.0 3 3
+chrome120.0.0.0 1697 478
+chrome121.0.0.0 27 1
+opera106.0.0.0 843 303
+firefox65.0 4 4
+safari16.5 2 2
+chrome79.0.3945.79 35 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 1
+Mozilla/5.0_(compatible;_Let's_Encrypt_validation_server;__https://www.letsencrypt.org) 20240129135243
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 0
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 384 384
+From1 0 0
+From2 1 1
+From3 0 0
+From4 425 2260
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+www_google_com 1 1
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 5
+301 19 28557
+403 9 5191
+302 301 729032
+206 2 11032
+404 557 495299
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 112
+/dist/img/user8-128x128.jpg 1 http://gestcompras.alunos.esmonserrate.org/template/AdminLTE-3.2.0/tabela.html
+/admin/designfatura.php 2 -
+/plugins/icheck-bootstrap/icheck-bootstrap.min.css 20 https://gestcompras.alunos.esmonserrate.org/template/AdminLTE/login-v2.html
+/template/AdminLTE-3.2.0/index2.html 39 -
+/template/tables/jsgrid.html 1 https://gestcompras.alunos.esmonserrate.org/template/AdminLTE/designfatura.php
+/template/AdminLTE/index1.html 1 -
+/template/AdminLTE/plugin/datatables-bs4/js/dataTables.bootstrap4.min.js 3 http://gestcompras.alunos.esmonserrate.org/template/AdminLTE/tabela.html
+/template/AdminLTE/admin/index.php 2 -
+/template/AdminLTE-3.2.0 1 -
+/config.json 4 -
+/template/UI/general.html 1 https://gestcompras.alunos.esmonserrate.org/template/AdminLTE/designfatura.php
+/imagens/logoGest.png 6 https://gestcompras.alunos.esmonserrate.org/template/AdminLTE/
+/.git/config 4 -
+/template/AdminLTE/menu_esqueda.php 1 -
+/admin/dist/img/AdminLTELogo.png 26 https://gestcompras.alunos.esmonserrate.org/admin/gerirFornecedores.php
+/dist/css/adminlte.min.css 21 http://gestcompras.alunos.esmonserrate.org/template/AdminLTE-3.2.0/tabela.html
+/plugins/jszip/jszip.min.js 1 http://gestcompras.alunos.esmonserrate.org/template/AdminLTE-3.2.0/tabela.html
+/dist/img/user3-128x128.jpg 1 http://gestcompras.alunos.esmonserrate.org/template/AdminLTE-3.2.0/tabela.html
+/AdminLTE-3.2.0/plugins/simplemde/simplemde.min.css 1 http://gestcompras.alunos.esmonserrate.org/AdminLTE-3.2.0/pages/forms/editors.html
+/plugins/pdfmake/pdfmake.min.js 1 http://gestcompras.alunos.esmonserrate.org/template/AdminLTE-3.2.0/tabela.html
+/template/AdminLTE-3.2.0/tabela.html 1 -
+/AdminLTE/index.php 1 -
+/template/AdminLTE/plugins/simplemde/simplemde.min.css 5 https://gestcompras.alunos.esmonserrate.org/template/AdminLTE/pages/forms/editors.html
+/plugins/datatables-buttons/js/buttons.print.min.js 1 http://gestcompras.alunos.esmonserrate.org/template/AdminLTE-3.2.0/tabela.html
+/_all_dbs 4 -
+/template/AdminLTE/plugin/fontawesome-free/css/all.min.css 3 http://gestcompras.alunos.esmonserrate.org/template/AdminLTE/tabela.html
+/plugins/datatables-responsive/js/responsive.bootstrap4.min.js 1 http://gestcompras.alunos.esmonserrate.org/template/AdminLTE-3.2.0/tabela.html
+/about 4 -
+/template/UI/buttons.html 1 https://gestcompras.alunos.esmonserrate.org/template/AdminLTE/tabela.html
+/AdminLTE 1 -
+/static/admin/javascript/hetong.js 2 -
+/template/AdminLTE/tabela.htmml 1 -
+/Public/home/js/check.js 2 -
+/plugins/jquery/jquery.min.js 21 http://gestcompras.alunos.esmonserrate.org/template/AdminLTE-3.2.0/tabela.html
+/template/tables/simple.html 2 https://gestcompras.alunos.esmonserrate.org/template/AdminLTE/designfatura.php
+/template/calendar.html 1 https://gestcompras.alunos.esmonserrate.org/template/AdminLTE/designfatura.php
+/widgets.html 2 https://gestcompras.alunos.esmonserrate.org/admin/gerirArtigos.php
+/plugins/datatables-buttons/js/buttons.colVis.min.js 1 http://gestcompras.alunos.esmonserrate.org/template/AdminLTE-3.2.0/tabela.html
+/teplate 1 -
+/.env 4 -
+/index2.html 2 https://gestcompras.alunos.esmonserrate.org/template/AdminLTE/login-v2.html
+/plugins/datatables-responsive/js/dataTables.responsive.min.js 1 http://gestcompras.alunos.esmonserrate.org/template/AdminLTE-3.2.0/tabela.html
+/template/AdminLTE/plugin/jszip/jszip.min.js 3 http://gestcompras.alunos.esmonserrate.org/template/AdminLTE/tabela.html
+/plugins/fontawesome-free/css/all.min.css 21 http://gestcompras.alunos.esmonserrate.org/template/AdminLTE-3.2.0/tabela.html
+/phpmyadmin 1 -
+/dist/img/AdminLTELogo.png 1 http://gestcompras.alunos.esmonserrate.org/template/AdminLTE-3.2.0/tabela.html
+/template/AdminLTE/plugin/datatables-bs4/css/dataTables.bootstrap4.min.css 3 http://gestcompras.alunos.esmonserrate.org/template/AdminLTE/tabela.html
+/plugins/datatables-buttons/js/buttons.html5.min.js 1 http://gestcompras.alunos.esmonserrate.org/template/AdminLTE-3.2.0/tabela.html
+/debug/default/view 4 -
+/plugins/datatables-buttons/js/dataTables.buttons.min.js 1 http://gestcompras.alunos.esmonserrate.org/template/AdminLTE-3.2.0/tabela.html
+/admin/gerirProcedimentos.php 1 -
+/template/AdminLTE/plugin/datatables-buttons/js/dataTables.buttons.min.js 3 http://gestcompras.alunos.esmonserrate.org/template/AdminLTE/tabela.html
+/admin/pages/UI/icons.html 1 https://gestcompras.alunos.esmonserrate.org/admin/gerirFamilias.php
+/template/AdminLTE/plugin/datatables/jquery.dataTables.min.js 3 http://gestcompras.alunos.esmonserrate.org/template/AdminLTE/tabela.html
+/plugins/bootstrap/js/bootstrap.bundle.min.js 21 http://gestcompras.alunos.esmonserrate.org/template/AdminLTE-3.2.0/tabela.html
+/dist/img/user1-128x128.jpg 1 http://gestcompras.alunos.esmonserrate.org/template/AdminLTE-3.2.0/tabela.html
+/template/AdminLTE/index.htl 1 -
+/admin/pages/forms/advanced.html 2 https://gestcompras.alunos.esmonserrate.org/admin/gerirArtigos.php
+/template/widgets.html 2 https://gestcompras.alunos.esmonserrate.org/template/AdminLTE/tabela.html
+/template/AdminLTE/plugin/datatables-buttons/js/buttons.print.min.js 3 http://gestcompras.alunos.esmonserrate.org/template/AdminLTE/tabela.html
+/AdminLTE-3.2.0/index2.html 7 -
+/admin/designfaturas.php 1 -
+/plugins/datatables/jquery.dataTables.min.js 1 http://gestcompras.alunos.esmonserrate.org/template/AdminLTE-3.2.0/tabela.html
+/template/AdminLTE/plugin/datatables-responsive/js/responsive.bootstrap4.min.js 3 http://gestcompras.alunos.esmonserrate.org/template/AdminLTE/tabela.html
+/plugins/datatables-buttons/css/buttons.bootstrap4.min.css 1 http://gestcompras.alunos.esmonserrate.org/template/AdminLTE-3.2.0/tabela.html
+/plugins/pdfmake/vfs_fonts.js 1 http://gestcompras.alunos.esmonserrate.org/template/AdminLTE-3.2.0/tabela.html
+/template/AdminLTE-3.2.0/plugins/simplemde/simplemde.min.css 1 http://gestcompras.alunos.esmonserrate.org/template/AdminLTE-3.2.0/pages/forms/editors.html
+/template/AdminLTE/plugin/datatables-responsive/css/responsive.bootstrap4.min.css 3 http://gestcompras.alunos.esmonserrate.org/template/AdminLTE/tabela.html
+/template/AdminLTE/login-v2.html 3 -
+/.vscode/sftp.json 4 -
+/template/AdminLTE/plugin/datatables-buttons/js/buttons.colVis.min.js 3 http://gestcompras.alunos.esmonserrate.org/template/AdminLTE/tabela.html
+/admin/designfaturas 1 -
+/v2/_catalog 4 -
+/dist/js/demo.js 1 http://gestcompras.alunos.esmonserrate.org/template/AdminLTE-3.2.0/tabela.html
+/plugins/datatables-buttons/js/buttons.bootstrap4.min.js 1 http://gestcompras.alunos.esmonserrate.org/template/AdminLTE-3.2.0/tabela.html
+/AdminLTE-3.2.0 72 -
+/ecp/Current/exporttool/microsoft.exchange.ediscovery.exporttool.application 4 -
+/imagens/icon.png 4 https://gestcompras.alunos.esmonserrate.org/admin/gerirArtigos.php
+/admin/dist/img/user2-160x160.jpg 63 https://gestcompras.alunos.esmonserrate.org/admin/gerirArtigos.php
+/s/734323e22343e2633323e2339313/_/ 4 -
+/template/AdminLTE/index2 1 -
+/.DS_Store 4 -
+/dist/js/adminlte.min.js 21 http://gestcompras.alunos.esmonserrate.org/template/AdminLTE-3.2.0/tabela.html
+/index3.html 4 https://gestcompras.alunos.esmonserrate.org/admin/gerirArtigos.php
+/template/forms/general.html 1 https://gestcompras.alunos.esmonserrate.org/template/AdminLTE/tabela.html
+/template/AdminLTE/admin/index.html 1 -
+/template/AdminLTE/plugin/jquery/jquery.min.js 3 http://gestcompras.alunos.esmonserrate.org/template/AdminLTE/tabela.html
+/template/AdminLTE/indexx.html 2 -
+/template/UI/icons.html 1 https://gestcompras.alunos.esmonserrate.org/template/AdminLTE/tabela.html
+/plugins/datatables-bs4/css/dataTables.bootstrap4.min.css 1 http://gestcompras.alunos.esmonserrate.org/template/AdminLTE-3.2.0/tabela.html
+/template/designfatura.php 1 https://gestcompras.alunos.esmonserrate.org/template/AdminLTE/
+/admin/index3.html 6 https://gestcompras.alunos.esmonserrate.org/admin/gerirFornecedores.php
+/template/AdminLTE/index.html 12 https://gestcompras.alunos.esmonserrate.org/template/AdminLTE/index3.html
+/admin/pages/forms/general.html 2 https://gestcompras.alunos.esmonserrate.org/admin/gerirArtigos.php
+/template/AdminLTE/plugin/bootstrap/js/bootstrap.bundle.min.js 3 http://gestcompras.alunos.esmonserrate.org/template/AdminLTE/tabela.html
+/template/AdminLTE/processar_fatura.php 4 https://gestcompras.alunos.esmonserrate.org/template/AdminLTE/designfatura.php
+/template/AdminLTE/plugin/pdfmake/vfs_fonts.js 3 http://gestcompras.alunos.esmonserrate.org/template/AdminLTE/tabela.html
+/template/AdminLTE/plugin/datatables-buttons/js/buttons.html5.min.js 3 http://gestcompras.alunos.esmonserrate.org/template/AdminLTE/tabela.html
+/telescope/requests 4 -
+/Admin 1 -
+/login.action 4 -
+/template/AdminLTE/index.htm 3 -
+/dist/img/user2-160x160.jpg 1 http://gestcompras.alunos.esmonserrate.org/template/AdminLTE-3.2.0/tabela.html
+/template/AdminLTE/plugin/datatables-buttons/js/buttons.bootstrap4.min.js 3 http://gestcompras.alunos.esmonserrate.org/template/AdminLTE/tabela.html
+/plugins/datatables-responsive/css/responsive.bootstrap4.min.css 1 http://gestcompras.alunos.esmonserrate.org/template/AdminLTE-3.2.0/tabela.html
+/template/AdminLTE-3.2.0/tabela 1 -
+/plugins/datatables-bs4/js/dataTables.bootstrap4.min.js 1 http://gestcompras.alunos.esmonserrate.org/template/AdminLTE-3.2.0/tabela.html
+/AdminLTE-3.2.0/ 1 -
+/template/AdminLTE/plugin/pdfmake/pdfmake.min.js 3 http://gestcompras.alunos.esmonserrate.org/template/AdminLTE/tabela.html
+/template/AdminLTE/plugin/datatables-responsive/js/dataTables.responsive.min.js 3 http://gestcompras.alunos.esmonserrate.org/template/AdminLTE/tabela.html
+/admin/Procedimentos.php 1 -
+/template/AdminLTE/plugin/datatables-buttons/css/buttons.bootstrap4.min.css 3 http://gestcompras.alunos.esmonserrate.org/template/AdminLTE/tabela.html
+END_SIDER_404
+
+# URL with 400 errors - Hits - Last URL referrer
+BEGIN_SIDER_400 0
+END_SIDER_400
+
+# URL with 403 errors - Hits - Last URL referrer
+BEGIN_SIDER_403 0
+END_SIDER_403
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 35
+10.1.16.233 279 603 18806743 20240130111726
+10.1.25.53 99 399 15212982 20240131113356
+10.1.16.235 95 213 6182124 20240129155321
+10.1.19.138 93 138 2056552 20240130110411
+10.1.22.219 48 105 3439696 20240131112626
+87-196-72-84.net.novis.pt 44 112 2197499 20240131113352
+10.116.88.13 30 207 5321521 20240130162821
+87.196.74.166 27 281 8981108 20240130162733
+87-196-72-207.net.novis.pt 25 193 5423577 20240125103953
+119.76.114.89.rev.vodafone.pt 15 93 2844203 20240129150401
+ec2-54-207-22-24.sa-east-1.compute.amazonaws.com 1 1 1269 20240131220440
+ec2-54-184-222-16.us-west-2.compute.amazonaws.com 3 3 876 20240129135149
+ec2-35-160-217-177.us-west-2.compute.amazonaws.com 1 1 294 20240129135240
+10.56.184.253 6 7 47263 20240130162735
+static.177.18.217.95.clients.your-server.de 2 2 15854 20240129135358
+ec2-3-138-186-53.us-east-2.compute.amazonaws.com 2 2 586 20240129135240
+ec2-34-221-126-106.us-west-2.compute.amazonaws.com 1 1 292 20240129135149
+174.76.114.89.rev.vodafone.pt 6 77 2552014 20240131085146
+outbound2e.letsencrypt.org 3 3 876 20240129135151
+outbound1f.letsencrypt.org 1 1 292 20240129135243
+10.1.22.229 1 2 70417 20240131103613
+167.99.47.56 2 2 2428 20240131135404
+45.87.9.60 1 1 1270 20240131220456
+45.87.9.77 1 1 1270 20240131220452
+164.92.223.24 2 2 15680 20240129135305
+ec2-3-145-79-105.us-east-2.compute.amazonaws.com 1 1 292 20240129135149
+bl22-87-12.dsl.telepac.pt 0 1 0 
+outbound2f.letsencrypt.org 1 1 292 20240129135153
+ec2-3-133-118-171.us-east-2.compute.amazonaws.com 2 2 586 20240129135149
+cache.google.com 1 27 504817 20240129135149
+92.250.100.249 0 1 0 
+ec2-18-231-131-105.sa-east-1.compute.amazonaws.com 1 1 7895 20240129135405
+10.1.22.40 13 108 2927036 20240125155223
+205.169.39.69 2 52 969954 20240129135326
+ec2-18-230-77-254.sa-east-1.compute.amazonaws.com 1 1 1269 20240131220440
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 5
+20240125 41 379 9553111 4
+20240128 1 27 505795 1
+20240129 226 847 26296279 18
+20240130 338 691 17753528 7
+20240131 204 701 23480114 12
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+30mn-1h 5
+30s-2mn 1
+0s-30s 22
+1h+ 7
+15mn-30mn 3
+5mn-15mn 3
+2mn-5mn 1
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 60
+/template/AdminLTE/ 122 999365 8 5
+/template/AdminLTE/designfatura.php 80 466442 1 3
+/admin/gerirProcedimento.php 69 365878 1 0
+/admin/gerirArtigos.php 68 331355 1 2
+/admin/gerirLinhasFaturas.php 63 319986 0 0
+/admin/gerirFamilias.php 59 328790 0 0
+/admin/gerirFatura.php 55 300259 0 1
+/admin/gerirFornecedores.php 46 231329 1 2
+/template/AdminLTE/login-v2.html 24 37711 0 0
+/template/AdminLTE/tabela.html 22 149292 2 0
+/template/AdminLTE-3.2.0/pages/forms/general.html 1 7062 0 0
+/AdminLTE-3.2.0/ 15 118385 7 6
+/template/AdminLTE/pages/UI/icons.html 3 19939 0 0
+/template/AdminLTE/pages/tables/simple.html 21 138262 0 0
+/template/AdminLTE/dist/js/adminlte.min.js.map 6 188802 0 0
+/AdminLTE-3.2.0/pages/forms/editors.html 1 4918 0 0
+/template/AdminLTE/plugins/pdfmake/pdfmake.min.js.map 3 3179603 0 0
+/template/AdminLTE/pages/examples/login-v2.html 2 3876 0 0
+/template/AdminLTE/dist/css/adminlte.min.css.map 6 2372436 0 0
+/AdminLTE-3.2.0/pages/UI/general.html 1 10026 0 0
+/template/AdminLTE/pages/gallery.html 3 18163 0 2
+/.well-known/acme-challenge/rAKJXiZcU5SOzIQWU2A6F8NYW4Bx53ETDoF8tfhAomw 3 876 0 2
+/AdminLTE-3.2.0/pages/layout/boxed.html 1 4513 0 0
+/template/AdminLTE/pages/forms/validation.html 1 5182 0 0
+/AdminLTE-3.2.0/pages/examples/e-commerce.html 2 13332 0 0
+/template/AdminLTE-3.2.0/ 1 7895 0 0
+/.well-known/acme-challenge/Tqg20iM9IzA9ul8rb37TE1jzMS_NQHREsOoPGRs0O-o 3 880 2 3
+/template/AdminLTE/pages/forms/editors.html 5 30791 0 1
+/AdminLTE-3.2.0/pages/examples/profile.html 1 6756 0 0
+/.well-known/acme-challenge/ymY94ZQOiGqx9h54pM4e6E2m5-Ev36VT8lvKtSIvvK0 3 876 2 3
+/template/AdminLTE/pages/UI/general.html 8 94284 1 0
+/AdminLTE-3.2.0/pages/examples/project-edit.html 1 5295 0 0
+/template/AdminLTE/login.php 22 29316 5 5
+/template/AdminLTE/pages/widgets.html 1 10560 0 0
+/template/AdminLTE-3.2.0/pages/tables/data.html 1 6127 0 0
+/AdminLTE-3.2.0/pages/forms/validation.html 1 5117 0 1
+/template/AdminLTE-3.2.0/pages/forms/advanced.html 1 9482 0 0
+/template/AdminLTE/index2.html 5 52076 0 1
+/.well-known/acme-challenge/ONGCybhgYVKIoMa8rX8nrnmaqU8tf2o9-4FmyP_FX-s 3 878 3 0
+/template/AdminLTE/pages/examples/login.html 1 1919 0 0
+/template/AdminLTE/pages/calendar.html 2 14182 0 0
+/AdminLTE-3.2.0/pages/UI/ribbons.html 1 5198 0 0
+/template/AdminLTE-3.2.0/tabela.html 1 6121 0 0
+/template/AdminLTE/pages/charts/chartjs.html 10 62460 0 0
+/AdminLTE-3.2.0/pages/widgets.html 1 9925 0 0
+/AdminLTE-3.2.0/pages/UI/sliders.html 1 5367 0 0
+/AdminLTE-3.2.0/pages/calendar.html 1 6478 0 0
+/ 12 5330 1 0
+/.well-known/acme-challenge/49YUcvw6hqRnmuWiiDpo6i-xzT0fp0tfOkPchbAk_N4 3 876 2 1
+/AdminLTE-3.2.0/pages/UI/icons.html 1 4439 0 0
+/template/AdminLTE-3.2.0/pages/forms/editors.html 1 4918 0 0
+/AdminLTE-3.2.0/index3.html 5 27990 1 0
+/template/AdminLTE/pages/forms/general.html 5 42607 0 0
+/AdminLTE-3.2.0/index2.html 9 79351 2 3
+/template/AdminLTE/pages/forms/advanced.html 5 50037 0 0
+/template/AdminLTE-3.2.0/pages/widgets.html 1 9925 0 0
+/template/AdminLTE/plugins/bootstrap/js/bootstrap.bundle.min.js.map 2 167808 0 0
+/template/AdminLTE-3.2.0/index2.html 2 28424 1 0
+/template/AdminLTE/index3.html 12 81900 1 1
+/template/AdminLTE-3.2.0/pages/forms/validation.html 1 5117 0 0
+END_SIDER

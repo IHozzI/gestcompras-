@@ -1,0 +1,679 @@
+0 verbose cli /usr/bin/node /usr/bin/npm
+1 info using npm@8.19.4
+2 info using node@v16.20.2
+3 timing npm:load:whichnode Completed in 0ms
+4 timing config:load:defaults Completed in 7ms
+5 timing config:load:file:/usr/lib/node_modules/npm/npmrc Completed in 1ms
+6 timing config:load:builtin Completed in 1ms
+7 timing config:load:cli Completed in 4ms
+8 timing config:load:env Completed in 1ms
+9 timing config:load:file:/home/gestcompras/.cache/typescript/5.3/.npmrc Completed in 0ms
+10 timing config:load:project Completed in 17ms
+11 timing config:load:file:/home/gestcompras/.npmrc Completed in 0ms
+12 timing config:load:user Completed in 0ms
+13 timing config:load:file:/usr/etc/npmrc Completed in 1ms
+14 timing config:load:global Completed in 1ms
+15 timing config:load:validate Completed in 1ms
+16 timing config:load:credentials Completed in 1ms
+17 timing config:load:setEnvs Completed in 2ms
+18 timing config:load Completed in 37ms
+19 timing npm:load:configload Completed in 37ms
+20 timing npm:load:mkdirpcache Completed in 2ms
+21 timing npm:load:mkdirplogs Completed in 1ms
+22 verbose title npm install @types/bootstrap@ts5.3 @types/bootstrap-colorpicker@ts5.3 @types/bootstrap-slider@ts5.3 @types/bootstrap-switch@ts5.3 @types/chart.js@ts5.3 @types/codemirror@ts5.3 @types/datatables.net@ts5.3 @types/daterangepicker@ts5.3 @types/dropzone@ts5.3 @types/fastclick@ts5.3 @types/flot@ts5.3 @types/fs-extra@ts5.3 @types/inputmask@ts5.3 @types/ion-rangeslider@ts5.3 @types/jquery@ts5.3 @types/jquery-mousewheel@ts5.3 @types/overlayscrollbars@ts5.3 @types/pdfmake@ts5.3 @types/raphael@ts5.3 @types/select2@ts5.3 @types/summernote@ts5.3 @types/toastr@ts5.3 @types/babel__core@ts5.3 @types/babel__preset-env@ts5.3 @types/browser-sync@ts5.3 @types/eslint@ts5.3 @types/node-sass@ts5.3 @types/nodemon@ts5.3 @types/vnu-jar@ts5.3
+23 verbose argv "install" "--ignore-scripts" "@types/bootstrap@ts5.3" "@types/bootstrap-colorpicker@ts5.3" "@types/bootstrap-slider@ts5.3" "@types/bootstrap-switch@ts5.3" "@types/chart.js@ts5.3" "@types/codemirror@ts5.3" "@types/datatables.net@ts5.3" "@types/daterangepicker@ts5.3" "@types/dropzone@ts5.3" "@types/fastclick@ts5.3" "@types/flot@ts5.3" "@types/fs-extra@ts5.3" "@types/inputmask@ts5.3" "@types/ion-rangeslider@ts5.3" "@types/jquery@ts5.3" "@types/jquery-mousewheel@ts5.3" "@types/overlayscrollbars@ts5.3" "@types/pdfmake@ts5.3" "@types/raphael@ts5.3" "@types/select2@ts5.3" "@types/summernote@ts5.3" "@types/toastr@ts5.3" "@types/babel__core@ts5.3" "@types/babel__preset-env@ts5.3" "@types/browser-sync@ts5.3" "@types/eslint@ts5.3" "@types/node-sass@ts5.3" "@types/nodemon@ts5.3" "@types/vnu-jar@ts5.3" "--save-dev" "--user-agent" "typesInstaller/5.3.2"
+24 timing npm:load:setTitle Completed in 5ms
+25 timing config:load:flatten Completed in 5ms
+26 timing npm:load:display Completed in 7ms
+27 verbose logfile logs-max:10 dir:/home/gestcompras/.npm/_logs
+28 verbose logfile /home/gestcompras/.npm/_logs/2024-02-07T09_17_32_652Z-debug-0.log
+29 timing npm:load:logFile Completed in 9ms
+30 timing npm:load:timers Completed in 0ms
+31 timing npm:load:configScope Completed in 0ms
+32 timing npm:load Completed in 63ms
+33 timing arborist:ctor Completed in 2ms
+34 silly logfile done cleaning log files
+35 timing idealTree:init Completed in 36ms
+36 timing arborist:ctor Completed in 0ms
+37 http fetch GET 200 https://registry.npmjs.org/@types%2ffs-extra 346ms (cache miss)
+38 http fetch GET 200 https://registry.npmjs.org/@types%2fjquery-mousewheel 348ms (cache miss)
+39 http fetch GET 200 https://registry.npmjs.org/@types%2fbootstrap 377ms (cache miss)
+40 http fetch GET 200 https://registry.npmjs.org/@types%2fjquery 362ms (cache miss)
+41 http fetch GET 200 https://registry.npmjs.org/@types%2fchart.js 378ms (cache miss)
+42 http fetch GET 200 https://registry.npmjs.org/@types%2fflot 1134ms (cache miss)
+43 http fetch GET 200 https://registry.npmjs.org/@types%2ffastclick 1187ms (cache miss)
+44 http fetch GET 200 https://registry.npmjs.org/@types%2finputmask 1208ms (cache miss)
+45 http fetch GET 200 https://registry.npmjs.org/@types%2fbootstrap-slider 1227ms (cache miss)
+46 http fetch GET 200 https://registry.npmjs.org/@types%2foverlayscrollbars 1220ms (cache miss)
+47 http fetch GET 200 https://registry.npmjs.org/@types%2fbabel__preset-env 1238ms (cache miss)
+48 http fetch GET 200 https://registry.npmjs.org/@types%2fbabel__core 1245ms (cache miss)
+49 http fetch GET 200 https://registry.npmjs.org/@types%2fbrowser-sync 1263ms (cache miss)
+50 http fetch GET 200 https://registry.npmjs.org/@types%2feslint 1284ms (cache miss)
+51 http fetch GET 200 https://registry.npmjs.org/@types%2fnodemon 1287ms (cache miss)
+52 http fetch GET 200 https://registry.npmjs.org/@types%2fdaterangepicker 1670ms (cache miss)
+53 http fetch GET 200 https://registry.npmjs.org/@types%2fbootstrap-switch 1685ms (cache miss)
+54 http fetch GET 200 https://registry.npmjs.org/@types%2fcodemirror 1702ms (cache miss)
+55 http fetch GET 200 https://registry.npmjs.org/@types%2fdatatables.net 1711ms (cache miss)
+56 http fetch GET 200 https://registry.npmjs.org/@types%2fion-rangeslider 1715ms (cache miss)
+57 http fetch GET 200 https://registry.npmjs.org/@types%2fpdfmake 1714ms (cache miss)
+58 http fetch GET 200 https://registry.npmjs.org/@types%2fraphael 1724ms (cache miss)
+59 http fetch GET 200 https://registry.npmjs.org/@types%2fbootstrap-colorpicker 1774ms (cache miss)
+60 http fetch GET 200 https://registry.npmjs.org/@types%2fselect2 1760ms (cache miss)
+61 http fetch GET 200 https://registry.npmjs.org/@types%2fdropzone 1803ms (cache miss)
+62 http fetch GET 200 https://registry.npmjs.org/@types%2fsummernote 2067ms (cache miss)
+63 http fetch GET 200 https://registry.npmjs.org/@types%2fvnu-jar 2161ms (cache miss)
+64 http fetch GET 200 https://registry.npmjs.org/@types%2ftoastr 2599ms (cache miss)
+65 http fetch GET 200 https://registry.npmjs.org/@types%2fnode-sass 2684ms (cache miss)
+66 timing idealTree:userRequests Completed in 2735ms
+67 silly idealTree buildDeps
+68 silly fetch manifest @types/fs-extra@11.0.4
+69 silly fetch manifest @types/jquery-mousewheel@3.1.12
+70 silly fetch manifest @types/bootstrap@5.2.10
+71 silly fetch manifest @types/jquery@3.5.29
+72 silly fetch manifest @types/chart.js@2.9.41
+73 silly fetch manifest @types/flot@0.0.36
+74 silly fetch manifest @types/fastclick@1.0.33
+75 silly fetch manifest @types/inputmask@5.0.7
+76 silly fetch manifest @types/bootstrap-slider@11.0.6
+77 silly fetch manifest @types/overlayscrollbars@1.12.5
+78 silly fetch manifest @types/babel__preset-env@7.9.6
+79 silly fetch manifest @types/babel__core@7.20.5
+80 silly fetch manifest @types/browser-sync@2.29.0
+81 silly fetch manifest @types/eslint@8.56.2
+82 silly fetch manifest @types/nodemon@1.19.6
+83 silly fetch manifest @types/daterangepicker@3.1.8
+84 silly fetch manifest @types/bootstrap-switch@0.0.36
+85 silly fetch manifest @types/codemirror@5.60.15
+86 silly fetch manifest @types/datatables.net@1.10.28
+87 silly fetch manifest @types/ion-rangeslider@2.3.5
+88 silly fetch manifest @types/pdfmake@0.2.9
+89 silly fetch manifest @types/raphael@2.3.9
+90 silly fetch manifest @types/bootstrap-colorpicker@2.5.7
+91 silly fetch manifest @types/select2@4.0.63
+92 silly fetch manifest @types/dropzone@5.7.8
+93 silly fetch manifest @types/summernote@0.8.10
+94 silly fetch manifest @types/vnu-jar@17.11.2
+95 silly fetch manifest @types/toastr@2.1.43
+96 silly fetch manifest @types/node-sass@4.11.7
+97 silly placeDep ROOT @types/babel__core@7.20.5 OK for:  want: 7.20.5
+98 silly placeDep ROOT @types/babel__preset-env@7.9.6 OK for:  want: 7.9.6
+99 silly placeDep ROOT @types/bootstrap@5.2.10 OK for:  want: 5.2.10
+100 silly placeDep ROOT @types/bootstrap-colorpicker@2.5.7 OK for:  want: 2.5.7
+101 silly placeDep ROOT @types/bootstrap-slider@11.0.6 OK for:  want: 11.0.6
+102 silly placeDep ROOT @types/bootstrap-switch@0.0.36 OK for:  want: 0.0.36
+103 silly placeDep ROOT @types/browser-sync@2.29.0 OK for:  want: 2.29.0
+104 silly placeDep ROOT @types/chart.js@2.9.41 OK for:  want: 2.9.41
+105 silly placeDep ROOT @types/codemirror@5.60.15 OK for:  want: 5.60.15
+106 silly placeDep ROOT @types/datatables.net@1.10.28 OK for:  want: 1.10.28
+107 silly placeDep ROOT @types/daterangepicker@3.1.8 OK for:  want: 3.1.8
+108 silly placeDep ROOT @types/dropzone@5.7.8 OK for:  want: 5.7.8
+109 silly placeDep ROOT @types/eslint@8.56.2 OK for:  want: 8.56.2
+110 silly placeDep ROOT @types/fastclick@1.0.33 OK for:  want: 1.0.33
+111 silly placeDep ROOT @types/flot@0.0.36 OK for:  want: 0.0.36
+112 silly placeDep ROOT @types/fs-extra@11.0.4 OK for:  want: 11.0.4
+113 silly placeDep ROOT @types/inputmask@5.0.7 OK for:  want: 5.0.7
+114 silly placeDep ROOT @types/ion-rangeslider@2.3.5 OK for:  want: 2.3.5
+115 silly placeDep ROOT @types/jquery@3.5.29 OK for:  want: 3.5.29
+116 silly placeDep ROOT @types/jquery-mousewheel@3.1.12 OK for:  want: 3.1.12
+117 silly placeDep ROOT @types/node-sass@4.11.7 OK for:  want: 4.11.7
+118 silly placeDep ROOT @types/nodemon@1.19.6 OK for:  want: 1.19.6
+119 silly placeDep ROOT @types/overlayscrollbars@1.12.5 OK for:  want: 1.12.5
+120 silly placeDep ROOT @types/pdfmake@0.2.9 OK for:  want: 0.2.9
+121 silly placeDep ROOT @types/raphael@2.3.9 OK for:  want: 2.3.9
+122 silly placeDep ROOT @types/select2@4.0.63 OK for:  want: 4.0.63
+123 silly placeDep ROOT @types/summernote@0.8.10 OK for:  want: 0.8.10
+124 silly placeDep ROOT @types/toastr@2.1.43 OK for:  want: 2.1.43
+125 silly placeDep ROOT @types/vnu-jar@17.11.2 OK for:  want: 17.11.2
+126 silly fetch manifest @babel/parser@^7.20.7
+127 silly fetch manifest @babel/types@^7.20.7
+128 silly fetch manifest @types/babel__generator@*
+129 silly fetch manifest @types/babel__template@*
+130 silly fetch manifest @types/babel__traverse@*
+131 silly fetch manifest @popperjs/core@^2.9.2
+132 silly fetch manifest @types/micromatch@^2
+133 silly fetch manifest @types/node@*
+134 silly fetch manifest @types/serve-static@*
+135 silly fetch manifest chokidar@^3.0.0
+136 silly fetch manifest moment@^2.10.2
+137 silly fetch manifest @types/tern@*
+138 silly fetch manifest moment@>=2.14.0
+139 silly fetch manifest @types/estree@*
+140 silly fetch manifest @types/json-schema@*
+141 silly fetch manifest @types/jsonfile@*
+142 silly fetch manifest @types/sizzle@*
+143 silly fetch manifest @types/pdfkit@*
+144 http fetch GET 200 https://registry.npmjs.org/@types%2fjson-schema 454ms (cache miss)
+145 http fetch GET 200 https://registry.npmjs.org/@types%2fserve-static 469ms (cache miss)
+146 http fetch GET 200 https://registry.npmjs.org/@types%2fbabel__generator 498ms (cache miss)
+147 http fetch GET 200 https://registry.npmjs.org/@types%2fbabel__template 488ms (cache miss)
+148 http fetch GET 200 https://registry.npmjs.org/@types%2fsizzle 459ms (cache miss)
+149 http fetch GET 200 https://registry.npmjs.org/@types%2fmicromatch 486ms (cache miss)
+150 http fetch GET 200 https://registry.npmjs.org/moment 478ms (cache miss)
+151 http fetch GET 200 https://registry.npmjs.org/moment 491ms (cache miss)
+152 http fetch GET 200 https://registry.npmjs.org/@types%2festree 489ms (cache miss)
+153 http fetch GET 200 https://registry.npmjs.org/@types%2fbabel__traverse 517ms (cache miss)
+154 http fetch GET 200 https://registry.npmjs.org/@popperjs%2fcore 516ms (cache miss)
+155 http fetch GET 200 https://registry.npmjs.org/chokidar 512ms (cache miss)
+156 http fetch GET 200 https://registry.npmjs.org/@babel%2fparser 553ms (cache miss)
+157 http fetch GET 200 https://registry.npmjs.org/@babel%2ftypes 556ms (cache miss)
+158 http fetch GET 200 https://registry.npmjs.org/@types%2fnode 567ms (cache miss)
+159 http fetch GET 200 https://registry.npmjs.org/@types%2ftern 976ms (cache miss)
+160 http fetch GET 200 https://registry.npmjs.org/@types%2fpdfkit 1557ms (cache miss)
+161 http fetch GET 200 https://registry.npmjs.org/@types%2fjsonfile 1690ms (cache miss)
+162 timing idealTree:#root Completed in 1910ms
+163 silly placeDep ROOT @babel/parser@7.23.9 OK for: @types/babel__core@7.20.5 want: ^7.20.7
+164 silly placeDep ROOT @babel/types@7.23.9 OK for: @types/babel__core@7.20.5 want: ^7.20.7
+165 silly placeDep ROOT @types/babel__generator@7.6.8 OK for: @types/babel__core@7.20.5 want: *
+166 silly placeDep ROOT @types/babel__template@7.4.4 OK for: @types/babel__core@7.20.5 want: *
+167 silly placeDep ROOT @types/babel__traverse@7.20.5 OK for: @types/babel__core@7.20.5 want: *
+168 silly fetch manifest @babel/helper-string-parser@^7.23.4
+169 silly fetch manifest @babel/helper-validator-identifier@^7.22.20
+170 silly fetch manifest to-fast-properties@^2.0.0
+171 http fetch GET 200 https://registry.npmjs.org/to-fast-properties 42ms (cache miss)
+172 http fetch GET 200 https://registry.npmjs.org/@babel%2fhelper-string-parser 86ms (cache miss)
+173 http fetch GET 200 https://registry.npmjs.org/@babel%2fhelper-validator-identifier 86ms (cache miss)
+174 timing idealTree:node_modules/@types/babel__core Completed in 109ms
+175 timing idealTree:node_modules/@babel/parser Completed in 0ms
+176 silly placeDep ROOT @babel/helper-string-parser@7.23.4 OK for: @babel/types@7.23.9 want: ^7.23.4
+177 silly placeDep ROOT @babel/helper-validator-identifier@7.22.20 OK for: @babel/types@7.23.9 want: ^7.22.20
+178 silly placeDep ROOT to-fast-properties@2.0.0 OK for: @babel/types@7.23.9 want: ^2.0.0
+179 timing idealTree:node_modules/@babel/types Completed in 12ms
+180 timing idealTree:node_modules/@babel/helper-string-parser Completed in 0ms
+181 timing idealTree:node_modules/@babel/helper-validator-identifier Completed in 0ms
+182 timing idealTree:node_modules/@types/babel__generator Completed in 0ms
+183 timing idealTree:node_modules/@types/babel__preset-env Completed in 0ms
+184 timing idealTree:node_modules/@types/babel__template Completed in 0ms
+185 timing idealTree:node_modules/@types/babel__traverse Completed in 0ms
+186 silly placeDep ROOT @popperjs/core@2.11.8 OK for: @types/bootstrap@5.2.10 want: ^2.9.2
+187 timing idealTree:node_modules/@types/bootstrap Completed in 4ms
+188 timing idealTree:node_modules/@popperjs/core Completed in 0ms
+189 timing idealTree:node_modules/@types/bootstrap-colorpicker Completed in 0ms
+190 timing idealTree:node_modules/@types/bootstrap-slider Completed in 0ms
+191 timing idealTree:node_modules/@types/bootstrap-switch Completed in 0ms
+192 silly placeDep ROOT @types/micromatch@2.3.35 OK for: @types/browser-sync@2.29.0 want: ^2
+193 silly placeDep ROOT @types/node@20.11.16 OK for: @types/browser-sync@2.29.0 want: *
+194 silly placeDep ROOT @types/serve-static@1.15.5 OK for: @types/browser-sync@2.29.0 want: *
+195 silly placeDep ROOT chokidar@3.6.0 OK for: @types/browser-sync@2.29.0 want: ^3.0.0
+196 silly fetch manifest @types/parse-glob@*
+197 silly fetch manifest undici-types@~5.26.4
+198 silly fetch manifest @types/http-errors@*
+199 silly fetch manifest @types/mime@*
+200 silly fetch manifest anymatch@~3.1.2
+201 silly fetch manifest braces@~3.0.2
+202 silly fetch manifest glob-parent@~5.1.2
+203 silly fetch manifest is-binary-path@~2.1.0
+204 silly fetch manifest is-glob@~4.0.1
+205 silly fetch manifest normalize-path@~3.0.0
+206 silly fetch manifest readdirp@~3.6.0
+207 silly fetch manifest fsevents@~2.3.2
+208 http fetch GET 200 https://registry.npmjs.org/undici-types 160ms (cache miss)
+209 http fetch GET 200 https://registry.npmjs.org/is-glob 154ms (cache miss)
+210 http fetch GET 200 https://registry.npmjs.org/@types%2fmime 167ms (cache miss)
+211 http fetch GET 200 https://registry.npmjs.org/is-binary-path 160ms (cache miss)
+212 http fetch GET 200 https://registry.npmjs.org/@types%2fparse-glob 177ms (cache miss)
+213 http fetch GET 200 https://registry.npmjs.org/readdirp 156ms (cache miss)
+214 http fetch GET 200 https://registry.npmjs.org/normalize-path 159ms (cache miss)
+215 http fetch GET 200 https://registry.npmjs.org/braces 170ms (cache miss)
+216 http fetch GET 200 https://registry.npmjs.org/glob-parent 170ms (cache miss)
+217 http fetch GET 200 https://registry.npmjs.org/anymatch 176ms (cache miss)
+218 http fetch GET 200 https://registry.npmjs.org/@types%2fhttp-errors 181ms (cache miss)
+219 http fetch GET 200 https://registry.npmjs.org/fsevents 163ms (cache miss)
+220 timing idealTree:node_modules/@types/browser-sync Completed in 204ms
+221 silly placeDep ROOT moment@2.30.1 OK for: @types/chart.js@2.9.41 want: ^2.10.2
+222 timing idealTree:node_modules/@types/chart.js Completed in 6ms
+223 silly placeDep ROOT @types/tern@0.23.9 OK for: @types/codemirror@5.60.15 want: *
+224 timing idealTree:node_modules/@types/codemirror Completed in 3ms
+225 timing idealTree:node_modules/@types/datatables.net Completed in 0ms
+226 timing idealTree:node_modules/@types/daterangepicker Completed in 0ms
+227 timing idealTree:node_modules/@types/dropzone Completed in 0ms
+228 silly placeDep ROOT @types/estree@1.0.5 OK for: @types/eslint@8.56.2 want: *
+229 silly placeDep ROOT @types/json-schema@7.0.15 OK for: @types/eslint@8.56.2 want: *
+230 timing idealTree:node_modules/@types/eslint Completed in 5ms
+231 timing idealTree:node_modules/@types/estree Completed in 0ms
+232 timing idealTree:node_modules/@types/fastclick Completed in 0ms
+233 timing idealTree:node_modules/@types/flot Completed in 0ms
+234 silly placeDep ROOT @types/jsonfile@6.1.4 OK for: @types/fs-extra@11.0.4 want: *
+235 timing idealTree:node_modules/@types/fs-extra Completed in 3ms
+236 timing idealTree:node_modules/@types/inputmask Completed in 0ms
+237 timing idealTree:node_modules/@types/ion-rangeslider Completed in 0ms
+238 silly placeDep ROOT @types/sizzle@2.3.8 OK for: @types/jquery@3.5.29 want: *
+239 timing idealTree:node_modules/@types/jquery Completed in 2ms
+240 timing idealTree:node_modules/@types/jquery-mousewheel Completed in 0ms
+241 timing idealTree:node_modules/@types/json-schema Completed in 0ms
+242 timing idealTree:node_modules/@types/jsonfile Completed in 0ms
+243 silly placeDep ROOT @types/parse-glob@3.0.32 OK for: @types/micromatch@2.3.35 want: *
+244 timing idealTree:node_modules/@types/micromatch Completed in 2ms
+245 silly placeDep ROOT undici-types@5.26.5 OK for: @types/node@20.11.16 want: ~5.26.4
+246 timing idealTree:node_modules/@types/node Completed in 2ms
+247 timing idealTree:node_modules/@types/node-sass Completed in 0ms
+248 timing idealTree:node_modules/@types/nodemon Completed in 0ms
+249 timing idealTree:node_modules/@types/overlayscrollbars Completed in 0ms
+250 timing idealTree:node_modules/@types/parse-glob Completed in 0ms
+251 silly placeDep ROOT @types/pdfkit@0.13.3 OK for: @types/pdfmake@0.2.9 want: *
+252 timing idealTree:node_modules/@types/pdfmake Completed in 3ms
+253 timing idealTree:node_modules/@types/pdfkit Completed in 1ms
+254 timing idealTree:node_modules/@types/raphael Completed in 0ms
+255 timing idealTree:node_modules/@types/select2 Completed in 0ms
+256 silly placeDep ROOT @types/http-errors@2.0.4 OK for: @types/serve-static@1.15.5 want: *
+257 silly placeDep ROOT @types/mime@3.0.4 OK for: @types/serve-static@1.15.5 want: *
+258 timing idealTree:node_modules/@types/serve-static Completed in 5ms
+259 timing idealTree:node_modules/@types/http-errors Completed in 0ms
+260 timing idealTree:node_modules/@types/mime Completed in 0ms
+261 timing idealTree:node_modules/@types/sizzle Completed in 0ms
+262 timing idealTree:node_modules/@types/summernote Completed in 0ms
+263 timing idealTree:node_modules/@types/tern Completed in 0ms
+264 timing idealTree:node_modules/@types/toastr Completed in 0ms
+265 timing idealTree:node_modules/@types/vnu-jar Completed in 0ms
+266 silly placeDep ROOT anymatch@3.1.3 OK for: chokidar@3.6.0 want: ~3.1.2
+267 silly placeDep ROOT braces@3.0.2 OK for: chokidar@3.6.0 want: ~3.0.2
+268 silly placeDep ROOT fsevents@2.3.3 OK for: chokidar@3.6.0 want: ~2.3.2
+269 silly placeDep ROOT glob-parent@5.1.2 OK for: chokidar@3.6.0 want: ~5.1.2
+270 silly placeDep ROOT is-binary-path@2.1.0 OK for: chokidar@3.6.0 want: ~2.1.0
+271 silly placeDep ROOT is-glob@4.0.3 OK for: chokidar@3.6.0 want: ~4.0.1
+272 silly placeDep ROOT normalize-path@3.0.0 OK for: chokidar@3.6.0 want: ~3.0.0
+273 silly placeDep ROOT readdirp@3.6.0 OK for: chokidar@3.6.0 want: ~3.6.0
+274 silly fetch manifest picomatch@^2.0.4
+275 silly fetch manifest fill-range@^7.0.1
+276 silly fetch manifest binary-extensions@^2.0.0
+277 silly fetch manifest is-extglob@^2.1.1
+278 silly fetch manifest picomatch@^2.2.1
+279 http fetch GET 200 https://registry.npmjs.org/is-extglob 60ms (cache miss)
+280 http fetch GET 200 https://registry.npmjs.org/picomatch 69ms (cache miss)
+281 http fetch GET 200 https://registry.npmjs.org/binary-extensions 70ms (cache miss)
+282 http fetch GET 200 https://registry.npmjs.org/picomatch 68ms (cache miss)
+283 http fetch GET 200 https://registry.npmjs.org/fill-range 74ms (cache miss)
+284 timing idealTree:node_modules/chokidar Completed in 99ms
+285 silly placeDep ROOT picomatch@2.3.1 OK for: anymatch@3.1.3 want: ^2.0.4
+286 timing idealTree:node_modules/anymatch Completed in 2ms
+287 silly placeDep ROOT fill-range@7.0.1 OK for: braces@3.0.2 want: ^7.0.1
+288 silly fetch manifest to-regex-range@^5.0.1
+289 http fetch GET 200 https://registry.npmjs.org/to-regex-range 33ms (cache miss)
+290 timing idealTree:node_modules/braces Completed in 37ms
+291 silly placeDep ROOT to-regex-range@5.0.1 OK for: fill-range@7.0.1 want: ^5.0.1
+292 silly fetch manifest is-number@^7.0.0
+293 http fetch GET 200 https://registry.npmjs.org/is-number 34ms (cache miss)
+294 timing idealTree:node_modules/fill-range Completed in 39ms
+295 timing idealTree:node_modules/fsevents Completed in 0ms
+296 timing idealTree:node_modules/glob-parent Completed in 0ms
+297 silly placeDep ROOT binary-extensions@2.2.0 OK for: is-binary-path@2.1.0 want: ^2.0.0
+298 timing idealTree:node_modules/is-binary-path Completed in 3ms
+299 timing idealTree:node_modules/binary-extensions Completed in 0ms
+300 silly placeDep ROOT is-extglob@2.1.1 OK for: is-glob@4.0.3 want: ^2.1.1
+301 timing idealTree:node_modules/is-glob Completed in 3ms
+302 timing idealTree:node_modules/is-extglob Completed in 0ms
+303 timing idealTree:node_modules/moment Completed in 0ms
+304 timing idealTree:node_modules/normalize-path Completed in 0ms
+305 timing idealTree:node_modules/picomatch Completed in 0ms
+306 timing idealTree:node_modules/readdirp Completed in 0ms
+307 timing idealTree:node_modules/to-fast-properties Completed in 0ms
+308 silly placeDep ROOT is-number@7.0.0 OK for: to-regex-range@5.0.1 want: ^7.0.0
+309 timing idealTree:node_modules/to-regex-range Completed in 2ms
+310 timing idealTree:node_modules/is-number Completed in 0ms
+311 timing idealTree:node_modules/undici-types Completed in 0ms
+312 timing idealTree:buildDeps Completed in 2475ms
+313 timing idealTree:fixDepFlags Completed in 2ms
+314 timing idealTree Completed in 5253ms
+315 timing reify:loadTrees Completed in 5254ms
+316 timing reify:diffTrees Completed in 5ms
+317 silly reify moves {}
+318 timing reify:retireShallow Completed in 2ms
+319 timing reify:createSparse Completed in 37ms
+320 timing reify:loadBundles Completed in 0ms
+321 silly audit bulk request {
+321 silly audit   'types-registry': [ '0.1.682' ],
+321 silly audit   '@types/babel__core': [ '7.20.5' ],
+321 silly audit   '@types/babel__preset-env': [ '7.9.6' ],
+321 silly audit   '@types/bootstrap': [ '5.2.10' ],
+321 silly audit   '@types/bootstrap-colorpicker': [ '2.5.7' ],
+321 silly audit   '@types/bootstrap-slider': [ '11.0.6' ],
+321 silly audit   '@types/bootstrap-switch': [ '0.0.36' ],
+321 silly audit   '@types/browser-sync': [ '2.29.0' ],
+321 silly audit   '@types/chart.js': [ '2.9.41' ],
+321 silly audit   '@types/codemirror': [ '5.60.15' ],
+321 silly audit   '@types/datatables.net': [ '1.10.28' ],
+321 silly audit   '@types/daterangepicker': [ '3.1.8' ],
+321 silly audit   '@types/dropzone': [ '5.7.8' ],
+321 silly audit   '@types/eslint': [ '8.56.2' ],
+321 silly audit   '@types/fastclick': [ '1.0.33' ],
+321 silly audit   '@types/flot': [ '0.0.36' ],
+321 silly audit   '@types/fs-extra': [ '11.0.4' ],
+321 silly audit   '@types/inputmask': [ '5.0.7' ],
+321 silly audit   '@types/ion-rangeslider': [ '2.3.5' ],
+321 silly audit   '@types/jquery': [ '3.5.29' ],
+321 silly audit   '@types/jquery-mousewheel': [ '3.1.12' ],
+321 silly audit   '@types/node-sass': [ '4.11.7' ],
+321 silly audit   '@types/nodemon': [ '1.19.6' ],
+321 silly audit   '@types/overlayscrollbars': [ '1.12.5' ],
+321 silly audit   '@types/pdfmake': [ '0.2.9' ],
+321 silly audit   '@types/raphael': [ '2.3.9' ],
+321 silly audit   '@types/select2': [ '4.0.63' ],
+321 silly audit   '@types/summernote': [ '0.8.10' ],
+321 silly audit   '@types/toastr': [ '2.1.43' ],
+321 silly audit   '@types/vnu-jar': [ '17.11.2' ],
+321 silly audit   '@babel/parser': [ '7.23.9' ],
+321 silly audit   '@babel/types': [ '7.23.9' ],
+321 silly audit   '@types/babel__generator': [ '7.6.8' ],
+321 silly audit   '@types/babel__template': [ '7.4.4' ],
+321 silly audit   '@types/babel__traverse': [ '7.20.5' ],
+321 silly audit   '@babel/helper-string-parser': [ '7.23.4' ],
+321 silly audit   '@babel/helper-validator-identifier': [ '7.22.20' ],
+321 silly audit   'to-fast-properties': [ '2.0.0' ],
+321 silly audit   '@popperjs/core': [ '2.11.8' ],
+321 silly audit   '@types/micromatch': [ '2.3.35' ],
+321 silly audit   '@types/node': [ '20.11.16' ],
+321 silly audit   '@types/serve-static': [ '1.15.5' ],
+321 silly audit   chokidar: [ '3.6.0' ],
+321 silly audit   moment: [ '2.30.1' ],
+321 silly audit   '@types/tern': [ '0.23.9' ],
+321 silly audit   '@types/estree': [ '1.0.5' ],
+321 silly audit   '@types/json-schema': [ '7.0.15' ],
+321 silly audit   '@types/jsonfile': [ '6.1.4' ],
+321 silly audit   '@types/sizzle': [ '2.3.8' ],
+321 silly audit   '@types/parse-glob': [ '3.0.32' ],
+321 silly audit   'undici-types': [ '5.26.5' ],
+321 silly audit   '@types/pdfkit': [ '0.13.3' ],
+321 silly audit   '@types/http-errors': [ '2.0.4' ],
+321 silly audit   '@types/mime': [ '3.0.4' ],
+321 silly audit   anymatch: [ '3.1.3' ],
+321 silly audit   braces: [ '3.0.2' ],
+321 silly audit   fsevents: [ '2.3.3' ],
+321 silly audit   'glob-parent': [ '5.1.2' ],
+321 silly audit   'is-binary-path': [ '2.1.0' ],
+321 silly audit   'is-glob': [ '4.0.3' ],
+321 silly audit   'normalize-path': [ '3.0.0' ],
+321 silly audit   readdirp: [ '3.6.0' ],
+321 silly audit   picomatch: [ '2.3.1' ],
+321 silly audit   'fill-range': [ '7.0.1' ],
+321 silly audit   'to-regex-range': [ '5.0.1' ],
+321 silly audit   'binary-extensions': [ '2.2.0' ],
+321 silly audit   'is-extglob': [ '2.1.1' ],
+321 silly audit   'is-number': [ '7.0.0' ]
+321 silly audit }
+322 verbose reify failed optional dependency /home/gestcompras/.cache/typescript/5.3/node_modules/fsevents
+323 silly reify mark deleted [ '/home/gestcompras/.cache/typescript/5.3/node_modules/fsevents' ]
+324 timing reifyNode:node_modules/fsevents Completed in 72ms
+325 silly tarball no local data for is-number@https://registry.npmjs.org/is-number/-/is-number-7.0.0.tgz. Extracting by manifest.
+326 silly tarball no local data for is-extglob@https://registry.npmjs.org/is-extglob/-/is-extglob-2.1.1.tgz. Extracting by manifest.
+327 silly tarball no local data for binary-extensions@https://registry.npmjs.org/binary-extensions/-/binary-extensions-2.2.0.tgz. Extracting by manifest.
+328 silly tarball no local data for to-regex-range@https://registry.npmjs.org/to-regex-range/-/to-regex-range-5.0.1.tgz. Extracting by manifest.
+329 silly tarball no local data for fill-range@https://registry.npmjs.org/fill-range/-/fill-range-7.0.1.tgz. Extracting by manifest.
+330 silly tarball no local data for picomatch@https://registry.npmjs.org/picomatch/-/picomatch-2.3.1.tgz. Extracting by manifest.
+331 silly tarball no local data for readdirp@https://registry.npmjs.org/readdirp/-/readdirp-3.6.0.tgz. Extracting by manifest.
+332 silly tarball no local data for normalize-path@https://registry.npmjs.org/normalize-path/-/normalize-path-3.0.0.tgz. Extracting by manifest.
+333 silly tarball no local data for is-glob@https://registry.npmjs.org/is-glob/-/is-glob-4.0.3.tgz. Extracting by manifest.
+334 silly tarball no local data for is-binary-path@https://registry.npmjs.org/is-binary-path/-/is-binary-path-2.1.0.tgz. Extracting by manifest.
+335 silly tarball no local data for glob-parent@https://registry.npmjs.org/glob-parent/-/glob-parent-5.1.2.tgz. Extracting by manifest.
+336 silly tarball no local data for braces@https://registry.npmjs.org/braces/-/braces-3.0.2.tgz. Extracting by manifest.
+337 silly tarball no local data for anymatch@https://registry.npmjs.org/anymatch/-/anymatch-3.1.3.tgz. Extracting by manifest.
+338 silly tarball no local data for @types/mime@https://registry.npmjs.org/@types/mime/-/mime-3.0.4.tgz. Extracting by manifest.
+339 silly tarball no local data for @types/http-errors@https://registry.npmjs.org/@types/http-errors/-/http-errors-2.0.4.tgz. Extracting by manifest.
+340 silly tarball no local data for @types/pdfkit@https://registry.npmjs.org/@types/pdfkit/-/pdfkit-0.13.3.tgz. Extracting by manifest.
+341 silly tarball no local data for undici-types@https://registry.npmjs.org/undici-types/-/undici-types-5.26.5.tgz. Extracting by manifest.
+342 silly tarball no local data for @types/parse-glob@https://registry.npmjs.org/@types/parse-glob/-/parse-glob-3.0.32.tgz. Extracting by manifest.
+343 silly tarball no local data for @types/sizzle@https://registry.npmjs.org/@types/sizzle/-/sizzle-2.3.8.tgz. Extracting by manifest.
+344 silly tarball no local data for @types/jsonfile@https://registry.npmjs.org/@types/jsonfile/-/jsonfile-6.1.4.tgz. Extracting by manifest.
+345 silly tarball no local data for @types/json-schema@https://registry.npmjs.org/@types/json-schema/-/json-schema-7.0.15.tgz. Extracting by manifest.
+346 silly tarball no local data for @types/estree@https://registry.npmjs.org/@types/estree/-/estree-1.0.5.tgz. Extracting by manifest.
+347 silly tarball no local data for @types/tern@https://registry.npmjs.org/@types/tern/-/tern-0.23.9.tgz. Extracting by manifest.
+348 silly tarball no local data for moment@https://registry.npmjs.org/moment/-/moment-2.30.1.tgz. Extracting by manifest.
+349 silly tarball no local data for chokidar@https://registry.npmjs.org/chokidar/-/chokidar-3.6.0.tgz. Extracting by manifest.
+350 silly tarball no local data for @types/serve-static@https://registry.npmjs.org/@types/serve-static/-/serve-static-1.15.5.tgz. Extracting by manifest.
+351 silly tarball no local data for @types/node@https://registry.npmjs.org/@types/node/-/node-20.11.16.tgz. Extracting by manifest.
+352 silly tarball no local data for @types/micromatch@https://registry.npmjs.org/@types/micromatch/-/micromatch-2.3.35.tgz. Extracting by manifest.
+353 silly tarball no local data for @popperjs/core@https://registry.npmjs.org/@popperjs/core/-/core-2.11.8.tgz. Extracting by manifest.
+354 silly tarball no local data for to-fast-properties@https://registry.npmjs.org/to-fast-properties/-/to-fast-properties-2.0.0.tgz. Extracting by manifest.
+355 silly tarball no local data for @babel/helper-validator-identifier@https://registry.npmjs.org/@babel/helper-validator-identifier/-/helper-validator-identifier-7.22.20.tgz. Extracting by manifest.
+356 silly tarball no local data for @babel/helper-string-parser@https://registry.npmjs.org/@babel/helper-string-parser/-/helper-string-parser-7.23.4.tgz. Extracting by manifest.
+357 silly tarball no local data for @types/babel__traverse@https://registry.npmjs.org/@types/babel__traverse/-/babel__traverse-7.20.5.tgz. Extracting by manifest.
+358 silly tarball no local data for @types/babel__template@https://registry.npmjs.org/@types/babel__template/-/babel__template-7.4.4.tgz. Extracting by manifest.
+359 silly tarball no local data for @types/babel__generator@https://registry.npmjs.org/@types/babel__generator/-/babel__generator-7.6.8.tgz. Extracting by manifest.
+360 silly tarball no local data for @babel/types@https://registry.npmjs.org/@babel/types/-/types-7.23.9.tgz. Extracting by manifest.
+361 silly tarball no local data for @babel/parser@https://registry.npmjs.org/@babel/parser/-/parser-7.23.9.tgz. Extracting by manifest.
+362 silly tarball no local data for @types/vnu-jar@https://registry.npmjs.org/@types/vnu-jar/-/vnu-jar-17.11.2.tgz. Extracting by manifest.
+363 silly tarball no local data for @types/toastr@https://registry.npmjs.org/@types/toastr/-/toastr-2.1.43.tgz. Extracting by manifest.
+364 silly tarball no local data for @types/summernote@https://registry.npmjs.org/@types/summernote/-/summernote-0.8.10.tgz. Extracting by manifest.
+365 silly tarball no local data for @types/select2@https://registry.npmjs.org/@types/select2/-/select2-4.0.63.tgz. Extracting by manifest.
+366 silly tarball no local data for @types/raphael@https://registry.npmjs.org/@types/raphael/-/raphael-2.3.9.tgz. Extracting by manifest.
+367 silly tarball no local data for @types/pdfmake@https://registry.npmjs.org/@types/pdfmake/-/pdfmake-0.2.9.tgz. Extracting by manifest.
+368 silly tarball no local data for @types/overlayscrollbars@https://registry.npmjs.org/@types/overlayscrollbars/-/overlayscrollbars-1.12.5.tgz. Extracting by manifest.
+369 silly tarball no local data for @types/nodemon@https://registry.npmjs.org/@types/nodemon/-/nodemon-1.19.6.tgz. Extracting by manifest.
+370 silly tarball no local data for @types/node-sass@https://registry.npmjs.org/@types/node-sass/-/node-sass-4.11.7.tgz. Extracting by manifest.
+371 silly tarball no local data for @types/jquery-mousewheel@https://registry.npmjs.org/@types/jquery-mousewheel/-/jquery-mousewheel-3.1.12.tgz. Extracting by manifest.
+372 silly tarball no local data for @types/jquery@https://registry.npmjs.org/@types/jquery/-/jquery-3.5.29.tgz. Extracting by manifest.
+373 silly tarball no local data for @types/ion-rangeslider@https://registry.npmjs.org/@types/ion-rangeslider/-/ion-rangeslider-2.3.5.tgz. Extracting by manifest.
+374 silly tarball no local data for @types/inputmask@https://registry.npmjs.org/@types/inputmask/-/inputmask-5.0.7.tgz. Extracting by manifest.
+375 silly tarball no local data for @types/fs-extra@https://registry.npmjs.org/@types/fs-extra/-/fs-extra-11.0.4.tgz. Extracting by manifest.
+376 silly tarball no local data for @types/flot@https://registry.npmjs.org/@types/flot/-/flot-0.0.36.tgz. Extracting by manifest.
+377 silly tarball no local data for @types/fastclick@https://registry.npmjs.org/@types/fastclick/-/fastclick-1.0.33.tgz. Extracting by manifest.
+378 silly tarball no local data for @types/eslint@https://registry.npmjs.org/@types/eslint/-/eslint-8.56.2.tgz. Extracting by manifest.
+379 silly tarball no local data for @types/dropzone@https://registry.npmjs.org/@types/dropzone/-/dropzone-5.7.8.tgz. Extracting by manifest.
+380 silly tarball no local data for @types/daterangepicker@https://registry.npmjs.org/@types/daterangepicker/-/daterangepicker-3.1.8.tgz. Extracting by manifest.
+381 silly tarball no local data for @types/datatables.net@https://registry.npmjs.org/@types/datatables.net/-/datatables.net-1.10.28.tgz. Extracting by manifest.
+382 silly tarball no local data for @types/codemirror@https://registry.npmjs.org/@types/codemirror/-/codemirror-5.60.15.tgz. Extracting by manifest.
+383 silly tarball no local data for @types/chart.js@https://registry.npmjs.org/@types/chart.js/-/chart.js-2.9.41.tgz. Extracting by manifest.
+384 silly tarball no local data for @types/browser-sync@https://registry.npmjs.org/@types/browser-sync/-/browser-sync-2.29.0.tgz. Extracting by manifest.
+385 silly tarball no local data for @types/bootstrap-switch@https://registry.npmjs.org/@types/bootstrap-switch/-/bootstrap-switch-0.0.36.tgz. Extracting by manifest.
+386 silly tarball no local data for @types/bootstrap-slider@https://registry.npmjs.org/@types/bootstrap-slider/-/bootstrap-slider-11.0.6.tgz. Extracting by manifest.
+387 silly tarball no local data for @types/bootstrap-colorpicker@https://registry.npmjs.org/@types/bootstrap-colorpicker/-/bootstrap-colorpicker-2.5.7.tgz. Extracting by manifest.
+388 silly tarball no local data for @types/bootstrap@https://registry.npmjs.org/@types/bootstrap/-/bootstrap-5.2.10.tgz. Extracting by manifest.
+389 silly tarball no local data for @types/babel__preset-env@https://registry.npmjs.org/@types/babel__preset-env/-/babel__preset-env-7.9.6.tgz. Extracting by manifest.
+390 silly tarball no local data for @types/babel__core@https://registry.npmjs.org/@types/babel__core/-/babel__core-7.20.5.tgz. Extracting by manifest.
+391 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 402ms
+392 timing auditReport:getReport Completed in 410ms
+393 silly audit report {}
+394 timing auditReport:init Completed in 0ms
+395 timing reify:audit Completed in 411ms
+396 http fetch GET 200 https://registry.npmjs.org/anymatch/-/anymatch-3.1.3.tgz 707ms (cache miss)
+397 timing reifyNode:node_modules/anymatch Completed in 881ms
+398 http fetch GET 200 https://registry.npmjs.org/normalize-path/-/normalize-path-3.0.0.tgz 743ms (cache miss)
+399 timing reifyNode:node_modules/normalize-path Completed in 895ms
+400 http fetch GET 200 https://registry.npmjs.org/is-extglob/-/is-extglob-2.1.1.tgz 766ms (cache miss)
+401 timing reifyNode:node_modules/is-extglob Completed in 904ms
+402 http fetch GET 200 https://registry.npmjs.org/fill-range/-/fill-range-7.0.1.tgz 769ms (cache miss)
+403 timing reifyNode:node_modules/fill-range Completed in 913ms
+404 http fetch GET 200 https://registry.npmjs.org/picomatch/-/picomatch-2.3.1.tgz 767ms (cache miss)
+405 http fetch GET 200 https://registry.npmjs.org/@types/http-errors/-/http-errors-2.0.4.tgz 739ms (cache miss)
+406 timing reifyNode:node_modules/@types/http-errors Completed in 916ms
+407 http fetch GET 200 https://registry.npmjs.org/@types/json-schema/-/json-schema-7.0.15.tgz 730ms (cache miss)
+408 timing reifyNode:node_modules/@types/json-schema Completed in 919ms
+409 http fetch GET 200 https://registry.npmjs.org/@types/serve-static/-/serve-static-1.15.5.tgz 720ms (cache miss)
+410 timing reifyNode:node_modules/@types/serve-static Completed in 920ms
+411 http fetch GET 200 https://registry.npmjs.org/binary-extensions/-/binary-extensions-2.2.0.tgz 787ms (cache miss)
+412 timing reifyNode:node_modules/binary-extensions Completed in 926ms
+413 timing reifyNode:node_modules/picomatch Completed in 927ms
+414 http fetch GET 200 https://registry.npmjs.org/is-glob/-/is-glob-4.0.3.tgz 771ms (cache miss)
+415 timing reifyNode:node_modules/is-glob Completed in 926ms
+416 http fetch GET 200 https://registry.npmjs.org/is-binary-path/-/is-binary-path-2.1.0.tgz 769ms (cache miss)
+417 timing reifyNode:node_modules/is-binary-path Completed in 927ms
+418 http fetch GET 200 https://registry.npmjs.org/is-number/-/is-number-7.0.0.tgz 797ms (cache miss)
+419 timing reifyNode:node_modules/is-number Completed in 930ms
+420 http fetch GET 200 https://registry.npmjs.org/to-fast-properties/-/to-fast-properties-2.0.0.tgz 718ms (cache miss)
+421 timing reifyNode:node_modules/to-fast-properties Completed in 926ms
+422 http fetch GET 200 https://registry.npmjs.org/to-regex-range/-/to-regex-range-5.0.1.tgz 791ms (cache miss)
+423 timing reifyNode:node_modules/to-regex-range Completed in 933ms
+424 http fetch GET 200 https://registry.npmjs.org/glob-parent/-/glob-parent-5.1.2.tgz 773ms (cache miss)
+425 timing reifyNode:node_modules/glob-parent Completed in 933ms
+426 http fetch GET 200 https://registry.npmjs.org/@types/parse-glob/-/parse-glob-3.0.32.tgz 749ms (cache miss)
+427 timing reifyNode:node_modules/@types/parse-glob Completed in 933ms
+428 http fetch GET 200 https://registry.npmjs.org/@types/sizzle/-/sizzle-2.3.8.tgz 747ms (cache miss)
+429 timing reifyNode:node_modules/@types/sizzle Completed in 932ms
+430 http fetch GET 200 https://registry.npmjs.org/@types/mime/-/mime-3.0.4.tgz 759ms (cache miss)
+431 timing reifyNode:node_modules/@types/mime Completed in 934ms
+432 http fetch GET 200 https://registry.npmjs.org/readdirp/-/readdirp-3.6.0.tgz 789ms (cache miss)
+433 timing reifyNode:node_modules/readdirp Completed in 939ms
+434 http fetch GET 200 https://registry.npmjs.org/@types/nodemon/-/nodemon-1.19.6.tgz 686ms (cache miss)
+435 timing reifyNode:node_modules/@types/nodemon Completed in 937ms
+436 http fetch GET 200 https://registry.npmjs.org/braces/-/braces-3.0.2.tgz 771ms (cache miss)
+437 timing reifyNode:node_modules/braces Completed in 942ms
+438 http fetch GET 200 https://registry.npmjs.org/@types/micromatch/-/micromatch-2.3.35.tgz 736ms (cache miss)
+439 timing reifyNode:node_modules/@types/micromatch Completed in 941ms
+440 http fetch GET 200 https://registry.npmjs.org/@types/babel__traverse/-/babel__traverse-7.20.5.tgz 718ms (cache miss)
+441 timing reifyNode:node_modules/@types/babel__traverse Completed in 945ms
+442 http fetch GET 200 https://registry.npmjs.org/@types/babel__template/-/babel__template-7.4.4.tgz 718ms (cache miss)
+443 timing reifyNode:node_modules/@types/babel__template Completed in 946ms
+444 http fetch GET 200 https://registry.npmjs.org/@babel/helper-string-parser/-/helper-string-parser-7.23.4.tgz 741ms (cache miss)
+445 timing reifyNode:node_modules/@babel/helper-string-parser Completed in 953ms
+446 http fetch GET 200 https://registry.npmjs.org/@types/estree/-/estree-1.0.5.tgz 765ms (cache miss)
+447 timing reifyNode:node_modules/@types/estree Completed in 956ms
+448 http fetch GET 200 https://registry.npmjs.org/@babel/helper-validator-identifier/-/helper-validator-identifier-7.22.20.tgz 746ms (cache miss)
+449 timing reifyNode:node_modules/@babel/helper-validator-identifier Completed in 956ms
+450 http fetch GET 200 https://registry.npmjs.org/@types/pdfmake/-/pdfmake-0.2.9.tgz 711ms (cache miss)
+451 timing reifyNode:node_modules/@types/pdfmake Completed in 958ms
+452 http fetch GET 200 https://registry.npmjs.org/@types/babel__generator/-/babel__generator-7.6.8.tgz 731ms (cache miss)
+453 timing reifyNode:node_modules/@types/babel__generator Completed in 962ms
+454 http fetch GET 200 https://registry.npmjs.org/@types/toastr/-/toastr-2.1.43.tgz 730ms (cache miss)
+455 timing reifyNode:node_modules/@types/toastr Completed in 969ms
+456 http fetch GET 200 https://registry.npmjs.org/@types/select2/-/select2-4.0.63.tgz 731ms (cache miss)
+457 timing reifyNode:node_modules/@types/select2 Completed in 974ms
+458 http fetch GET 200 https://registry.npmjs.org/@types/vnu-jar/-/vnu-jar-17.11.2.tgz 741ms (cache miss)
+459 timing reifyNode:node_modules/@types/vnu-jar Completed in 978ms
+460 http fetch GET 200 https://registry.npmjs.org/chokidar/-/chokidar-3.6.0.tgz 784ms (cache miss)
+461 timing reifyNode:node_modules/chokidar Completed in 982ms
+462 http fetch GET 200 https://registry.npmjs.org/undici-types/-/undici-types-5.26.5.tgz 822ms (cache miss)
+463 http fetch GET 200 https://registry.npmjs.org/@types/ion-rangeslider/-/ion-rangeslider-2.3.5.tgz 731ms (cache miss)
+464 timing reifyNode:node_modules/@types/ion-rangeslider Completed in 1005ms
+465 timing reifyNode:node_modules/undici-types Completed in 1011ms
+466 http fetch GET 200 https://registry.npmjs.org/@types/eslint/-/eslint-8.56.2.tgz 730ms (cache miss)
+467 timing reifyNode:node_modules/@types/eslint Completed in 1016ms
+468 http fetch GET 200 https://registry.npmjs.org/@types/jquery/-/jquery-3.5.29.tgz 845ms (cache miss)
+469 timing reifyNode:node_modules/@types/jquery Completed in 1123ms
+470 http fetch GET 200 https://registry.npmjs.org/@types/dropzone/-/dropzone-5.7.8.tgz 869ms (cache miss)
+471 timing reifyNode:node_modules/@types/dropzone Completed in 1154ms
+472 http fetch GET 200 https://registry.npmjs.org/@types/pdfkit/-/pdfkit-0.13.3.tgz 1003ms (cache miss)
+473 timing reifyNode:node_modules/@types/pdfkit Completed in 1183ms
+474 http fetch GET 200 https://registry.npmjs.org/@types/datatables.net/-/datatables.net-1.10.28.tgz 968ms (cache miss)
+475 timing reifyNode:node_modules/@types/datatables.net Completed in 1259ms
+476 http fetch GET 200 https://registry.npmjs.org/@types/jsonfile/-/jsonfile-6.1.4.tgz 1077ms (cache miss)
+477 timing reifyNode:node_modules/@types/jsonfile Completed in 1264ms
+478 http fetch GET 200 https://registry.npmjs.org/@types/chart.js/-/chart.js-2.9.41.tgz 968ms (cache miss)
+479 timing reifyNode:node_modules/@types/chart.js Completed in 1263ms
+480 http fetch GET 200 https://registry.npmjs.org/@types/tern/-/tern-0.23.9.tgz 1100ms (cache miss)
+481 timing reifyNode:node_modules/@types/tern Completed in 1294ms
+482 http fetch GET 200 https://registry.npmjs.org/@types/browser-sync/-/browser-sync-2.29.0.tgz 1003ms (cache miss)
+483 timing reifyNode:node_modules/@types/browser-sync Completed in 1298ms
+484 http fetch GET 200 https://registry.npmjs.org/@types/bootstrap/-/bootstrap-5.2.10.tgz 1031ms (cache miss)
+485 http fetch GET 200 https://registry.npmjs.org/@babel/parser/-/parser-7.23.9.tgz 1104ms (cache miss)
+486 timing reifyNode:node_modules/@babel/parser Completed in 1339ms
+487 timing reifyNode:node_modules/@types/bootstrap Completed in 1339ms
+488 http fetch GET 200 https://registry.npmjs.org/@types/overlayscrollbars/-/overlayscrollbars-1.12.5.tgz 1185ms (cache miss)
+489 timing reifyNode:node_modules/@types/overlayscrollbars Completed in 1435ms
+490 http fetch GET 200 https://registry.npmjs.org/@types/node-sass/-/node-sass-4.11.7.tgz 1202ms (cache miss)
+491 timing reifyNode:node_modules/@types/node-sass Completed in 1456ms
+492 http fetch GET 200 https://registry.npmjs.org/@types/bootstrap-switch/-/bootstrap-switch-0.0.36.tgz 1158ms (cache miss)
+493 timing reifyNode:node_modules/@types/bootstrap-switch Completed in 1455ms
+494 http fetch GET 200 https://registry.npmjs.org/@types/raphael/-/raphael-2.3.9.tgz 1216ms (cache miss)
+495 timing reifyNode:node_modules/@types/raphael Completed in 1462ms
+496 http fetch GET 200 https://registry.npmjs.org/@types/flot/-/flot-0.0.36.tgz 1220ms (cache miss)
+497 timing reifyNode:node_modules/@types/flot Completed in 1499ms
+498 http fetch GET 200 https://registry.npmjs.org/@types/fs-extra/-/fs-extra-11.0.4.tgz 1233ms (cache miss)
+499 timing reifyNode:node_modules/@types/fs-extra Completed in 1511ms
+500 http fetch GET 200 https://registry.npmjs.org/@types/fastclick/-/fastclick-1.0.33.tgz 1290ms (cache miss)
+501 timing reifyNode:node_modules/@types/fastclick Completed in 1571ms
+502 http fetch GET 200 https://registry.npmjs.org/@types/inputmask/-/inputmask-5.0.7.tgz 1341ms (cache miss)
+503 timing reifyNode:node_modules/@types/inputmask Completed in 1618ms
+504 http fetch GET 200 https://registry.npmjs.org/@types/jquery-mousewheel/-/jquery-mousewheel-3.1.12.tgz 1448ms (cache miss)
+505 timing reifyNode:node_modules/@types/jquery-mousewheel Completed in 1705ms
+506 http fetch GET 200 https://registry.npmjs.org/@types/daterangepicker/-/daterangepicker-3.1.8.tgz 1603ms (cache miss)
+507 timing reifyNode:node_modules/@types/daterangepicker Completed in 1892ms
+508 http fetch GET 200 https://registry.npmjs.org/@types/bootstrap-slider/-/bootstrap-slider-11.0.6.tgz 1669ms (cache miss)
+509 timing reifyNode:node_modules/@types/bootstrap-slider Completed in 1968ms
+510 http fetch GET 200 https://registry.npmjs.org/@types/bootstrap-colorpicker/-/bootstrap-colorpicker-2.5.7.tgz 1673ms (cache miss)
+511 timing reifyNode:node_modules/@types/bootstrap-colorpicker Completed in 1974ms
+512 http fetch GET 200 https://registry.npmjs.org/@babel/types/-/types-7.23.9.tgz 1756ms (cache miss)
+513 timing reifyNode:node_modules/@babel/types Completed in 1992ms
+514 http fetch GET 200 https://registry.npmjs.org/@popperjs/core/-/core-2.11.8.tgz 1797ms (cache miss)
+515 timing reifyNode:node_modules/@popperjs/core Completed in 2008ms
+516 http fetch GET 200 https://registry.npmjs.org/@types/node/-/node-20.11.16.tgz 1827ms (cache miss)
+517 timing reifyNode:node_modules/@types/node Completed in 2029ms
+518 http fetch GET 200 https://registry.npmjs.org/@types/codemirror/-/codemirror-5.60.15.tgz 1745ms (cache miss)
+519 timing reifyNode:node_modules/@types/codemirror Completed in 2039ms
+520 http fetch GET 200 https://registry.npmjs.org/@types/summernote/-/summernote-0.8.10.tgz 1826ms (cache miss)
+521 timing reifyNode:node_modules/@types/summernote Completed in 2067ms
+522 http fetch GET 200 https://registry.npmjs.org/@types/babel__preset-env/-/babel__preset-env-7.9.6.tgz 1762ms (cache miss)
+523 timing reifyNode:node_modules/@types/babel__preset-env Completed in 2068ms
+524 http fetch GET 200 https://registry.npmjs.org/@types/babel__core/-/babel__core-7.20.5.tgz 1833ms (cache miss)
+525 timing reifyNode:node_modules/@types/babel__core Completed in 2141ms
+526 http fetch GET 200 https://registry.npmjs.org/moment/-/moment-2.30.1.tgz 2087ms (cache miss)
+527 timing reifyNode:node_modules/moment Completed in 2283ms
+528 timing reify:unpack Completed in 2288ms
+529 timing reify:unretire Completed in 0ms
+530 timing build:queue Completed in 7ms
+531 timing build:link:node_modules/@babel/parser Completed in 4ms
+532 timing build:link Completed in 4ms
+533 timing build:deps Completed in 12ms
+534 timing build Completed in 13ms
+535 timing reify:build Completed in 13ms
+536 timing reify:trash Completed in 1ms
+537 timing reify:save Completed in 81ms
+538 timing reify Completed in 7733ms
+539 silly ADD node_modules/is-number
+540 silly ADD node_modules/is-extglob
+541 silly ADD node_modules/binary-extensions
+542 silly ADD node_modules/to-regex-range
+543 silly ADD node_modules/fill-range
+544 silly ADD node_modules/picomatch
+545 silly ADD node_modules/readdirp
+546 silly ADD node_modules/normalize-path
+547 silly ADD node_modules/is-glob
+548 silly ADD node_modules/is-binary-path
+549 silly ADD node_modules/glob-parent
+550 silly ADD
+551 silly ADD node_modules/braces
+552 silly ADD node_modules/anymatch
+553 silly ADD node_modules/@types/mime
+554 silly ADD node_modules/@types/http-errors
+555 silly ADD node_modules/@types/pdfkit
+556 silly ADD node_modules/undici-types
+557 silly ADD node_modules/@types/parse-glob
+558 silly ADD node_modules/@types/sizzle
+559 silly ADD node_modules/@types/jsonfile
+560 silly ADD node_modules/@types/json-schema
+561 silly ADD node_modules/@types/estree
+562 silly ADD node_modules/@types/tern
+563 silly ADD node_modules/moment
+564 silly ADD node_modules/chokidar
+565 silly ADD node_modules/@types/serve-static
+566 silly ADD node_modules/@types/node
+567 silly ADD node_modules/@types/micromatch
+568 silly ADD node_modules/@popperjs/core
+569 silly ADD node_modules/to-fast-properties
+570 silly ADD node_modules/@babel/helper-validator-identifier
+571 silly ADD node_modules/@babel/helper-string-parser
+572 silly ADD node_modules/@types/babel__traverse
+573 silly ADD node_modules/@types/babel__template
+574 silly ADD node_modules/@types/babel__generator
+575 silly ADD node_modules/@babel/types
+576 silly ADD node_modules/@babel/parser
+577 silly ADD node_modules/@types/vnu-jar
+578 silly ADD node_modules/@types/toastr
+579 silly ADD node_modules/@types/summernote
+580 silly ADD node_modules/@types/select2
+581 silly ADD node_modules/@types/raphael
+582 silly ADD node_modules/@types/pdfmake
+583 silly ADD node_modules/@types/overlayscrollbars
+584 silly ADD node_modules/@types/nodemon
+585 silly ADD node_modules/@types/node-sass
+586 silly ADD node_modules/@types/jquery-mousewheel
+587 silly ADD node_modules/@types/jquery
+588 silly ADD node_modules/@types/ion-rangeslider
+589 silly ADD node_modules/@types/inputmask
+590 silly ADD node_modules/@types/fs-extra
+591 silly ADD node_modules/@types/flot
+592 silly ADD node_modules/@types/fastclick
+593 silly ADD node_modules/@types/eslint
+594 silly ADD node_modules/@types/dropzone
+595 silly ADD node_modules/@types/daterangepicker
+596 silly ADD node_modules/@types/datatables.net
+597 silly ADD node_modules/@types/codemirror
+598 silly ADD node_modules/@types/chart.js
+599 silly ADD node_modules/@types/browser-sync
+600 silly ADD node_modules/@types/bootstrap-switch
+601 silly ADD node_modules/@types/bootstrap-slider
+602 silly ADD node_modules/@types/bootstrap-colorpicker
+603 silly ADD node_modules/@types/bootstrap
+604 silly ADD node_modules/@types/babel__preset-env
+605 silly ADD node_modules/@types/babel__core
+606 timing command:install Completed in 7754ms
+607 verbose exit 0
+608 timing npm Completed in 7994ms
+609 info ok

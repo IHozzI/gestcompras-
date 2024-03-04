@@ -1,0 +1,31 @@
+2024-02-29 09:10:47.154 [info] 
+
+
+
+
+2024-02-29 09:10:47.277 [info] Extension host agent started.
+2024-02-29 09:10:47.495 [info] [<unknown>][09d549d9][ExtensionHostConnection] New connection established.
+2024-02-29 09:10:47.528 [info] [<unknown>][6217915f][ManagementConnection] New connection established.
+2024-02-29 09:10:47.881 [info] [<unknown>][09d549d9][ExtensionHostConnection] <196997> Launched Extension Host Process.
+2024-02-29 09:12:30.961 [info] [<unknown>][29ef22d9][ExtensionHostConnection] New connection established.
+2024-02-29 09:12:30.964 [info] [<unknown>][b9fbbb8d][ManagementConnection] New connection established.
+2024-02-29 09:12:30.993 [info] [<unknown>][29ef22d9][ExtensionHostConnection] <197491> Launched Extension Host Process.
+2024-02-29 09:12:33.677 [error] CodeExpectedError: Could not find pty on pty host
+    at A.U (/home/gestcompras/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/out/vs/platform/terminal/node/ptyHostMain.js:43:32407)
+    at A.updateTitle (/home/gestcompras/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/out/vs/platform/terminal/node/ptyHostMain.js:43:27539)
+    at U.<computed> (/home/gestcompras/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/out/vs/platform/terminal/node/ptyHostMain.js:43:22765)
+    at Object.call (/home/gestcompras/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/out/vs/platform/terminal/node/ptyHostMain.js:34:5041)
+    at $.s (/home/gestcompras/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/out/vs/platform/terminal/node/ptyHostMain.js:32:5153)
+    at $.q (/home/gestcompras/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/out/vs/platform/terminal/node/ptyHostMain.js:32:4662)
+    at a.value (/home/gestcompras/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/out/vs/platform/terminal/node/ptyHostMain.js:32:4064)
+    at d.y (/home/gestcompras/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/out/vs/platform/terminal/node/ptyHostMain.js:27:1906)
+    at d.fire (/home/gestcompras/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/out/vs/platform/terminal/node/ptyHostMain.js:27:2123)
+    at process.ne (/home/gestcompras/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/out/vs/platform/terminal/node/ptyHostMain.js:25:10072)
+    at process.emit (node:events:514:28)
+    at emit (node:internal/child_process:937:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2024-02-29 09:15:47.311 [info] New EH opened, aborting shutdown
+2024-02-29 09:15:47.317 [error] Error: Unexpected SIGPIPE
+    at process.<anonymous> (/home/gestcompras/.vscode-server/cli/servers/Stable-903b1e9d8990623e3d7da1df3d33db3e42d80eda/server/out/vs/server/node/server.main.js:187:6090)
+    at process.emit (node:events:514:28)
+2024-02-29 09:17:31.294 [info] [<unknown>][09d549d9][ExtensionHostConnection] <196997> Extension Host Process exited with code: 0, signal: null.

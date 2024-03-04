@@ -1,0 +1,4 @@
+AuthName "gestcompras.alunos.esmonserrate.org statistics"
+AuthType Basic
+AuthUserFile /home/gestcompras/.awstats-htpasswd
+require valid-user

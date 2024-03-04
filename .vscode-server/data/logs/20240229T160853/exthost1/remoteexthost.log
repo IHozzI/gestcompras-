@@ -1,0 +1,14 @@
+2024-02-29 16:08:57.692 [info] Extension host with pid 20416 started
+2024-02-29 16:08:57.738 [info] Lock '/home/gestcompras/.vscode-server/data/User/workspaceStorage/67a8a8e49481e1ba7de75b9482670bbb/vscode.lock': Lock acquired.
+2024-02-29 16:08:57.905 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-02-29 16:08:57.925 [info] ExtensionService#_doActivateExtension vscode.php-language-features, startup: false, activationEvent: 'onLanguage:php'
+2024-02-29 16:08:58.252 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-02-29 16:08:58.347 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-02-29 16:08:58.349 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-02-29 16:08:59.168 [info] ExtensionService#_doActivateExtension github.vscode-github-actions, startup: true, activationEvent: 'workspaceContains:**/.github/workflows/**'
+2024-02-29 16:09:01.007 [info] Eager extensions activated
+2024-02-29 16:09:01.009 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-02-29 16:09:01.011 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-02-29 19:35:37.685 [info] Extension host terminating: renderer disconnected for too long (1)
+2024-02-29 19:35:37.688 [info] Lock '/home/gestcompras/.vscode-server/data/User/workspaceStorage/67a8a8e49481e1ba7de75b9482670bbb/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2024-02-29 19:35:37.757 [info] Extension host with pid 20416 exiting with code 0

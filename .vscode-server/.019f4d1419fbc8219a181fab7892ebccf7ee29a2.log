@@ -1,0 +1,21 @@
+*
+* Visual Studio Code Server
+*
+* By using the software, you agree to
+* the Visual Studio Code Server License Terms (https://aka.ms/vscode-server-license) and
+* the Microsoft Privacy Statement (https://privacy.microsoft.com/en-US/privacystatement).
+*
+Server bound to 127.0.0.1:42747 (IPv4)
+Extension host agent listening on 42747
+
+[13:48:29] 
+
+
+
+
+[13:48:29] Extension host agent started.
+[13:48:30] [127.0.0.1][acbf9679][ManagementConnection] New connection established.
+[13:48:30] [127.0.0.1][63bfce6f][ExtensionHostConnection] New connection established.
+[13:48:30] [127.0.0.1][63bfce6f][ExtensionHostConnection] <369820> Launched Extension Host Process.
+New EH opened, aborting shutdown
+[13:53:29] New EH opened, aborting shutdown

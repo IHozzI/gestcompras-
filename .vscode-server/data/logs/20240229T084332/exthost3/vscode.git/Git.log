@@ -1,0 +1,4 @@
+2024-02-29 08:51:08.546 [info] Log level: Info
+2024-02-29 08:51:08.546 [info] Validating found git in: "git"
+2024-02-29 08:51:08.547 [info] Using git "2.25.1" from "git"
+2024-02-29 08:51:08.547 [warning] Failed to get repository realpath for: "/home/turma12r/public_html/GestcomprasPAP". Error: EACCES: permission denied, realpath '/home/turma12r/public_html/GestcomprasPAP'

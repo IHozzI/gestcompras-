@@ -1,0 +1,66 @@
+2024-02-29 09:30:52.264 [info] 
+
+
+
+
+2024-02-29 09:30:52.365 [info] Extension host agent started.
+2024-02-29 09:30:52.609 [info] [127.0.0.1][9235aba7][ManagementConnection] New connection established.
+2024-02-29 09:30:52.611 [info] [127.0.0.1][90d061f6][ExtensionHostConnection] New connection established.
+2024-02-29 09:30:53.175 [info] [127.0.0.1][90d061f6][ExtensionHostConnection] <9116> Launched Extension Host Process.
+2024-02-29 09:30:59.454 [info] Getting Manifest... ms-ceintl.vscode-language-pack-pt-br
+2024-02-29 09:30:59.821 [info] Installing extension: ms-ceintl.vscode-language-pack-pt-br
+2024-02-29 09:31:14.064 [info] Extension signature is verified: ms-ceintl.vscode-language-pack-pt-br
+2024-02-29 09:31:15.581 [info] Extracted extension to file:///home/gestcompras/.vscode-server/extensions/ms-ceintl.vscode-language-pack-pt-br-1.87.2024022809: ms-ceintl.vscode-language-pack-pt-br
+2024-02-29 09:31:15.590 [info] Renamed to /home/gestcompras/.vscode-server/extensions/ms-ceintl.vscode-language-pack-pt-br-1.87.2024022809
+2024-02-29 09:31:15.611 [info] Extracting extension completed. ms-ceintl.vscode-language-pack-pt-br
+2024-02-29 09:31:15.663 [info] Adding language packs from the extension ms-ceintl.vscode-language-pack-pt-br
+2024-02-29 09:31:16.140 [info] Marked extension as uninstalled ms-ceintl.vscode-language-pack-pt-br-1.85.2024021409
+2024-02-29 09:31:16.335 [info] Extension installed successfully: ms-ceintl.vscode-language-pack-pt-br
+2024-02-29 09:35:52.367 [info] New EH opened, aborting shutdown
+2024-02-29 09:41:59.230 [info] [127.0.0.1][9fc716af][ManagementConnection] New connection established.
+2024-02-29 09:41:59.251 [info] [127.0.0.1][a8f48dbc][ExtensionHostConnection] New connection established.
+2024-02-29 09:41:59.276 [info] [127.0.0.1][a8f48dbc][ExtensionHostConnection] <13619> Launched Extension Host Process.
+2024-02-29 09:42:15.641 [error] CodeExpectedError: Could not find pty on pty host
+    at D.U (/home/gestcompras/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:43:32578)
+    at D.updateTitle (/home/gestcompras/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:43:27710)
+    at T.<computed> (/home/gestcompras/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:43:22925)
+    at Object.call (/home/gestcompras/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:34:5061)
+    at u.s (/home/gestcompras/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:32:5165)
+    at u.q (/home/gestcompras/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:32:4667)
+    at l.value (/home/gestcompras/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:32:4065)
+    at m.y (/home/gestcompras/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:27:1906)
+    at m.fire (/home/gestcompras/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:27:2123)
+    at process._ (/home/gestcompras/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:25:10025)
+    at process.emit (node:events:514:28)
+    at emit (node:internal/child_process:937:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2024-02-29 09:42:15.694 [error] CodeExpectedError: Could not find pty on pty host
+    at D.U (/home/gestcompras/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:43:32578)
+    at D.updateIcon (/home/gestcompras/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:43:27763)
+    at T.<computed> (/home/gestcompras/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:43:22925)
+    at Object.call (/home/gestcompras/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:34:5061)
+    at u.s (/home/gestcompras/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:32:5165)
+    at u.q (/home/gestcompras/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:32:4667)
+    at l.value (/home/gestcompras/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:32:4065)
+    at m.y (/home/gestcompras/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:27:1906)
+    at m.fire (/home/gestcompras/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:27:2123)
+    at process._ (/home/gestcompras/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:25:10025)
+    at process.emit (node:events:514:28)
+    at emit (node:internal/child_process:937:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2024-02-29 09:42:16.934 [info] Getting Manifest... ms-ceintl.vscode-language-pack-pt-br
+2024-02-29 09:42:17.210 [info] Installing extension: ms-ceintl.vscode-language-pack-pt-br
+2024-02-29 09:42:17.595 [info] Adding language packs from the extension ms-ceintl.vscode-language-pack-pt-br
+2024-02-29 09:42:17.802 [info] Extension installed successfully: ms-ceintl.vscode-language-pack-pt-br
+2024-02-29 10:22:49.921 [info] [127.0.0.1][5b370476][ManagementConnection] New connection established.
+2024-02-29 10:22:50.024 [info] [127.0.0.1][46ac81a1][ExtensionHostConnection] New connection established.
+2024-02-29 10:22:50.094 [info] [127.0.0.1][46ac81a1][ExtensionHostConnection] <18494> Launched Extension Host Process.
+2024-02-29 10:27:51.404 [info] [127.0.0.1][a8f48dbc][ExtensionHostConnection] <13619> Extension Host Process exited with code: 0, signal: null.
+2024-02-29 10:27:54.382 [info] [127.0.0.1][90d061f6][ExtensionHostConnection] <9116> Extension Host Process exited with code: 0, signal: null.
+2024-02-29 11:01:49.066 [info] [127.0.0.1][06c6d115][ManagementConnection] New connection established.
+2024-02-29 11:01:49.528 [info] [127.0.0.1][63c8deac][ExtensionHostConnection] New connection established.
+2024-02-29 11:01:50.034 [info] [127.0.0.1][63c8deac][ExtensionHostConnection] <22890> Launched Extension Host Process.
+2024-02-29 11:06:49.336 [info] [127.0.0.1][46ac81a1][ExtensionHostConnection] <18494> Extension Host Process exited with code: 0, signal: null.
+2024-02-29 14:07:00.322 [info] [127.0.0.1][63c8deac][ExtensionHostConnection] <22890> Extension Host Process exited with code: 0, signal: null.
+2024-02-29 14:07:00.367 [info] Last EH closed, waiting before shutting down
+2024-02-29 14:12:00.370 [info] Last EH closed, shutting down

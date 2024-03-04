@@ -1,0 +1,23 @@
+2024-02-29 09:12:33.781 [info] Extension host with pid 197491 started
+2024-02-29 09:12:33.784 [error] Error: EEXIST: file already exists, open '/home/gestcompras/.vscode-server/data/User/workspaceStorage/67a8a8e49481e1ba7de75b9482670bbb/vscode.lock'
+2024-02-29 09:12:33.807 [info] Lock '/home/gestcompras/.vscode-server/data/User/workspaceStorage/67a8a8e49481e1ba7de75b9482670bbb/vscode.lock': Could not acquire lock, checking if the file is stale.
+2024-02-29 09:12:33.843 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-02-29 09:12:33.846 [info] ExtensionService#_doActivateExtension vscode.php-language-features, startup: false, activationEvent: 'onLanguage:php'
+2024-02-29 09:12:34.027 [info] Lock '/home/gestcompras/.vscode-server/data/User/workspaceStorage/67a8a8e49481e1ba7de75b9482670bbb/vscode.lock': The lock does not look stale, elapsed: 964 ms, giving up.
+2024-02-29 09:12:34.028 [error] Error: EEXIST: file already exists, open '/home/gestcompras/.vscode-server/data/User/workspaceStorage/67a8a8e49481e1ba7de75b9482670bbb-1/vscode.lock'
+2024-02-29 09:12:34.038 [info] Lock '/home/gestcompras/.vscode-server/data/User/workspaceStorage/67a8a8e49481e1ba7de75b9482670bbb-1/vscode.lock': Could not acquire lock, checking if the file is stale.
+2024-02-29 09:12:34.040 [info] Lock '/home/gestcompras/.vscode-server/data/User/workspaceStorage/67a8a8e49481e1ba7de75b9482670bbb-1/vscode.lock': The lock does not look stale, elapsed: 392 ms, giving up.
+2024-02-29 09:12:34.070 [error] Error: EEXIST: file already exists, open '/home/gestcompras/.vscode-server/data/User/workspaceStorage/67a8a8e49481e1ba7de75b9482670bbb-2/vscode.lock'
+2024-02-29 09:12:34.074 [info] Lock '/home/gestcompras/.vscode-server/data/User/workspaceStorage/67a8a8e49481e1ba7de75b9482670bbb-2/vscode.lock': Could not acquire lock, checking if the file is stale.
+2024-02-29 09:12:34.075 [info] Lock '/home/gestcompras/.vscode-server/data/User/workspaceStorage/67a8a8e49481e1ba7de75b9482670bbb-2/vscode.lock': The lock does not look stale, elapsed: 558 ms, giving up.
+2024-02-29 09:12:34.076 [error] Error: EEXIST: file already exists, open '/home/gestcompras/.vscode-server/data/User/workspaceStorage/67a8a8e49481e1ba7de75b9482670bbb-3/vscode.lock'
+2024-02-29 09:12:34.078 [info] Lock '/home/gestcompras/.vscode-server/data/User/workspaceStorage/67a8a8e49481e1ba7de75b9482670bbb-3/vscode.lock': Could not acquire lock, checking if the file is stale.
+2024-02-29 09:12:34.079 [info] Lock '/home/gestcompras/.vscode-server/data/User/workspaceStorage/67a8a8e49481e1ba7de75b9482670bbb-3/vscode.lock': The lock does not look stale, elapsed: 458 ms, giving up.
+2024-02-29 09:12:34.129 [info] Lock '/home/gestcompras/.vscode-server/data/User/workspaceStorage/67a8a8e49481e1ba7de75b9482670bbb-4/vscode.lock': Lock acquired.
+2024-02-29 09:12:34.360 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-02-29 09:12:34.457 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-02-29 09:12:34.458 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-02-29 09:12:35.829 [info] ExtensionService#_doActivateExtension github.vscode-github-actions, startup: true, activationEvent: 'workspaceContains:**/.github/workflows/**'
+2024-02-29 09:12:37.591 [info] Eager extensions activated
+2024-02-29 09:12:37.592 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-02-29 09:12:37.593 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'

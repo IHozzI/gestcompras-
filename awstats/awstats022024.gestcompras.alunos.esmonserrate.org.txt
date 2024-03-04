@@ -1,0 +1,477 @@
+AWSTATS DATA FILE 7.6 (build 20161204)
+# If you remove this file, all statistics for date 202402 will be lost/reset.
+# Last config file used to build this data file was /etc/awstats/awstats.gestcompras.alunos.esmonserrate.org.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 30
+POS_GENERAL 2088                
+POS_TIME 2775                
+POS_VISITOR 8357                
+POS_DAY 14009               
+POS_DOMAIN 3581                
+POS_LOGIN 3878                
+POS_ROBOT 4033                
+POS_WORMS 4275                
+POS_EMAILSENDER 4406                
+POS_EMAILRECEIVER 4549                
+POS_SESSION 14663               
+POS_SIDER 14873               
+POS_FILETYPES 4684                
+POS_DOWNLOADS 4914                
+POS_OS 4962                
+POS_BROWSER 5097                
+POS_SCREENSIZE 5434                
+POS_UNKNOWNREFERER 5508                
+POS_UNKNOWNREFERERBROWSER 5681                
+POS_ORIGIN 5763                
+POS_SEREFERRALS 5903                
+POS_PAGEREFS 6047                
+POS_SEARCHWORDS 6277                
+POS_KEYWORDS 6429                
+POS_MISC 2439                
+POS_ERRORS 6488                
+POS_CLUSTER 3734                
+POS_SIDER_403 6633                
+POS_SIDER_404 6764                
+POS_SIDER_400 8048                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20240301014848 1788 516062 14459007609330
+FirstTime 20240201084551
+LastTime 20240229210029
+LastUpdate 20240301203104 1788 1753 34 0 0
+TotalVisits 159                 
+TotalUnique 118                 
+MonthHostsKnown 40                  
+MonthHostsUnknown 84                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+JavascriptDisabled 0 0 0
+AddToFavourites 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+PDFSupport 0 0 0
+JavaEnabled 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 2 2 2558 46 65 1553862
+1 2 2 2558 37 57 1522230
+2 2 2 2556 39 55 2603917
+3 0 0 0 40 45 300145
+4 4 4 5115 63 75 2266686
+5 2 2 2558 40 45 239758
+6 7 7 15018 35 41 224424
+7 0 0 0 44 65 891486
+8 186 591 16692839 106 206 993663
+9 503 1016 45027298 195 714 1131566
+10 238 753 38600947 125 380 1163011
+11 258 439 17977871 120 380 811323
+12 13 77 3068951 43 55 332953
+13 27 215 8971070 100 131 2298226
+14 45 198 7879456 64 93 382967
+15 125 319 10745018 87 235 1932180
+16 18 87 5180236 60 99 4471604
+17 3 6 25511 43 55 315734
+18 2 3 11795 40 72 1691812
+19 0 0 0 33 35 220989
+20 2 10 211000 38 40 231294
+21 5 5 17503 52 110 1691350
+22 3 3 3810 36 38 212644
+23 24 92 3502884 45 68 284360
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 5
+ip 923 2816 120341623
+pt 520 938 34665379
+com 22 73 2913170
+net 4 4 23876
+de 2 2 2504
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 3
+bingbot/ 358 17618136 20240229215450 0
+no_user_agent 2 17316 20240211073808 0
+nbot 1 1349357 20240208150628 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 8
+js 1401 70741209 0 0
+png 106 1789646 0 0
+php 1265 14486587 0 0
+woff2 102 3456178 0 0
+jpg 249 24848902 0 0
+css 504 9149618 0 0
+map 98 32914949 0 0
+html 108 559463 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 5
+ios_ipad 38 38
+Unknown 8 8
+linux 10 10
+win10 3775 1413
+ios_iphone 2 2
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 14
+opera107.0.0.0 199 92
+chrome122.0.0.0 6 6
+mozilla 8 8
+opera106.0.0.0 916 319
+chrome100.0.4896.60 6 6
+firefox120.0 6 6
+chrome79.0.3945.130 2 2
+firefox115.0 4 4
+safari11.0 38 38
+chrome121.0.0.0 2287 884
+chrome114.0.0.0 55 3
+chrome120.0.0.0 286 99
+chrome117.0.5938.132 18 2
+safari16.5 2 2
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 1
+Mozilla/5.0_(compatible;_CensysInspect/1.1;__https://about.censys.io/) 20240229210029
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 0
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 368 368
+From1 0 0
+From2 0 0
+From3 2 2
+From4 1101 3463
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 1
+https://view.genial.ly/65d701a2bbd50e00142ab1f5/dossier-reporting-gestcompras 2 2
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 5
+206 2 26263
+404 1712 2160736
+301 16 16158
+403 3 1263
+302 981 6578955
+END_ERRORS
+
+# URL with 403 errors - Hits - Last URL referrer
+BEGIN_SIDER_403 3
+/admin/ 1 -
+/classes/graphic/ 1 -
+/template/ 1 -
+END_SIDER_403
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 12
+/AdminLTE/index.php 2 https://gestcompras.alunos.esmonserrate.org/admin/gerirArtigos.php
+/admin/pages/UI/icons.html 1 https://gestcompras.alunos.esmonserrate.org/admin/gerirFornecedores.php
+/template/template/AdminLTE/index.php 10 https://gestcompras.alunos.esmonserrate.org/template/AdminLTE/login.php
+/index3.html 2 https://gestcompras.alunos.esmonserrate.org/template/AdminLTE/designfatura.php
+/admin/index.php 6 https://gestcompras.alunos.esmonserrate.org/admin/gerirFornecedores.php
+/admin/pages/UI/general.html 2 https://gestcompras.alunos.esmonserrate.org/admin/gerirFornecedores.php
+/admin/dist/img/user2-160x160.jpg 51 https://gestcompras.alunos.esmonserrate.org/admin/gerirFornecedores.php
+/admin/pages/forms/advanced.html 1 https://gestcompras.alunos.esmonserrate.org/admin/gerirFornecedores.php
+/admin/pages/forms/general.html 1 https://gestcompras.alunos.esmonserrate.org/admin/gerirFamilias.php
+/admin/index3.html 14 https://gestcompras.alunos.esmonserrate.org/admin/gerirProcedimento.php
+/templates/AdminLTE/index.php 1 https://gestcompras.alunos.esmonserrate.org/admin/gerirArtigos.php
+/AdminLTE/templates/index.php 1 https://gestcompras.alunos.esmonserrate.org/admin/gerirArtigos.php
+END_SIDER_404
+
+# URL with 400 errors - Hits - Last URL referrer
+BEGIN_SIDER_400 0
+END_SIDER_400
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 124
+87.196.73.95 108 210 3922874 20240207113029
+10.1.18.177 104 253 13626631 20240221113752
+10.1.23.33 86 144 6668565 20240207105503
+87-196-80-153.net.novis.pt 84 91 1828884 20240221111814
+35.76.114.89.rev.vodafone.pt 73 149 4899655 20240227112254
+46.79.114.89.rev.vodafone.pt 68 92 2807735 20240228113915
+10.1.17.155 66 211 15433807 20240229152305
+10.1.23.10 65 94 1413460 20240222155518
+10.1.17.140 64 232 17157257 20240207112145
+87-196-74-152.net.novis.pt 56 75 1929848 20240229102251
+45.56.197.27 7 29 1412412 20240229091704
+10.1.18.37 8 32 441882 20240220092826
+104.166.80.179 1 1 1300 20240203153827
+google-proxy-74-125-215-78.google.com 1 14 127307 20240207102437
+10.1.18.215 2 27 328808 20240208144239
+10.1.17.153 3 15 1199777 20240229160900
+63.141.48.45 6 57 1734971 20240206093646
+45.87.9.126 1 1 1279 20240204222019
+45.56.197.214 3 3 156669 20240228093053
+104.166.80.194 1 1 1300 20240204153714
+45.87.9.173 1 1 1279 20240213051523
+45.87.9.220 1 1 1279 20240203061327
+63.141.48.98 2 4 85646 20240220084756
+10.1.16.45 9 61 1643521 20240226151947
+45.56.198.73 1 1 5706 20240226150028
+65.154.226.167 1 9 361116 20240219131755
+burris.probe.onyphe.net 1 1 3261 20240210234531
+marni.probe.onyphe.net 1 1 8677 20240210234425
+45.87.9.30 2 2 2558 20240211001344
+139.177.147.103 3 53 1623262 20240222083817
+63.141.48.154 9 65 1961228 20240201085024
+195.79.114.89.rev.vodafone.pt 4 7 39335 20240229085904
+63.141.48.144 3 3 19900 20240208122348
+google-proxy-192-178-10-32.google.com 0 2 35819 
+10.1.16.50 19 73 3727710 20240228103632
+bl16-233-64.dsl.telepac.pt 19 97 3693580 20240221233459
+10.1.18.217 30 149 6845916 20240208161351
+10.1.23.229 0 28 1303225 
+10.1.25.200 10 13 54160 20240221111924
+45.87.9.15 1 1 1279 20240208041536
+dsl-18-196.bl27.telepac.pt 0 1 9238 
+87.196.81.8 48 146 3567033 20240227125445
+roza.probe.onyphe.net 1 1 8677 20240210234645
+139.177.147.89 3 3 10715 20240229152531
+139.177.147.21 12 50 1580652 20240219153046
+45.87.9.252 1 1 1279 20240216110736
+63.141.48.168 3 4 23729 20240201150111
+vu.probe.onyphe.net 1 1 3261 20240210234607
+10.1.23.222 3 74 4159419 20240219152316
+45.56.197.34 1 17 279636 20240201084630
+63.141.48.242 5 5 69697 20240222095233
+scanner-202.hk2.censys-scanner.com 1 1 1223 20240206205515
+bl22-87-12.dsl.telepac.pt 0 1 9222 
+google-proxy-192-178-10-33.google.com 1 6 270749 20240207102447
+87-196-72-84.net.novis.pt 6 28 1279245 20240201153333
+139.65.114.89.rev.vodafone.pt 21 22 755620 20240208161458
+10.56.185.234 1 9 369025 20240207102312
+10.56.184.219 3 55 1804565 20240222111200
+4.79.114.89.rev.vodafone.pt 2 4 19128 20240201152856
+ec2-15-229-43-187.sa-east-1.compute.amazonaws.com 1 1 1278 20240204021335
+45.87.9.45 2 2 2558 20240207101209
+204.14.73.16 3 10 82086 20240222103135
+45.87.9.77 2 2 2558 20240208231407
+104.166.80.21 1 1 1300 20240203153257
+45.87.9.92 1 1 1279 20240216110620
+104.166.80.247 1 1 1300 20240205153736
+google-proxy-74-125-215-77.google.com 1 19 1872621 20240207102442
+45.56.198.226 5 7 28855 20240207110617
+scanner-201.hk2.censys-scanner.com 2 2 12903 20240229175629
+104.166.80.192 1 1 1300 20240204153314
+45.87.9.254 1 1 1279 20240214060648
+ec2-18-231-154-0.sa-east-1.compute.amazonaws.com 1 1 1278 20240204021335
+87-196-81-14.net.novis.pt 8 75 2817032 20240219155416
+45.87.9.205 1 1 1279 20240212041433
+10.1.19.57 3 3 19154 20240227115904
+63.141.48.163 35 38 1843587 20240207094905
+ec2-18-230-221-200.sa-east-1.compute.amazonaws.com 1 1 1278 20240212041433
+204.14.73.175 2 2 13230 20240201155817
+45.87.9.143 1 1 1279 20240208041536
+45.87.9.188 1 1 1279 20240209171524
+45.87.9.237 1 1 1279 20240217111309
+google-proxy-192-178-10-34.google.com 0 1 82422 
+45.87.9.207 1 1 1279 20240201111004
+63.141.48.94 4 4 37302 20240201103723
+45.87.9.13 1 1 1279 20240205181426
+45.87.9.190 1 1 1279 20240207101210
+45.87.9.175 2 2 2557 20240211001344
+61.76.114.89.rev.vodafone.pt 50 88 1608763 20240201094504
+10.1.18.216 1 23 252882 20240208104215
+65.154.226.169 1 9 341723 20240219130809
+static.177.18.217.95.clients.your-server.de 2 2 2504 20240209084103
+139.177.147.220 4 4 111029 20240228102137
+191.76.114.89.rev.vodafone.pt 26 26 1011447 20240226153153
+ec2-15-229-31-235.sa-east-1.compute.amazonaws.com 1 1 1278 20240206141420
+google-proxy-74-125-215-76.google.com 0 12 467305 
+45.87.9.158 1 1 1279 20240202151424
+10.56.184.214 41 158 5165547 20240201103408
+45.87.9.141 5 5 6395 20240218111058
+45.87.9.156 1 1 1279 20240202011018
+139.177.147.82 1 36 519825 20240219140843
+10.1.17.123 6 58 1641183 20240205140613
+87.196.80.121 23 150 12390801 20240222103239
+104.166.80.147 1 1 1300 20240205153133
+87-196-75-184.net.novis.pt 34 74 6745934 20240226145514
+199.45.154.65 1 1 1223 20240205131543
+45.56.197.216 1 1 9882 20240207153650
+45.87.9.109 1 1 1279 20240214060648
+ec2-15-229-32-255.sa-east-1.compute.amazonaws.com 1 1 1278 20240205181425
+ec2-18-231-161-61.sa-east-1.compute.amazonaws.com 1 1 1278 20240217111308
+ec2-54-88-179-33.compute-1.amazonaws.com 2 2 6572 20240213212538
+10.116.88.13 15 46 1427750 20240208105509
+10.1.18.60 5 6 43029 20240201154333
+219.76.114.89.rev.vodafone.pt 29 51 2021890 20240207095003
+ec2-35-171-144-152.compute-1.amazonaws.com 4 4 13232 20240213212539
+45.87.9.94 1 1 1279 20240202011020
+scanner-203.hk2.censys-scanner.com 4 4 15349 20240229210029
+45.87.9.62 1 1 1279 20240216110736
+12.79.114.89.rev.vodafone.pt 4 4 67704 20240229154024
+45.87.9.111 2 2 2558 20240206141421
+10.1.18.58 21 22 156086 20240201153552
+63.141.48.231 2 45 1576586 20240222103849
+45.56.197.38 4 4 47824 20240208125007
+87-196-81-5.net.novis.pt 36 53 3121119 20240229160027
+10.1.19.223 17 20 1587780 20240206114525
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 25
+20240201 154 410 10713808 20
+20240202 4 4 5116 4
+20240203 4 4 5158 4
+20240204 6 6 7714 6
+20240205 12 64 1654088 7
+20240206 36 184 7653936 10
+20240207 330 673 31945835 15
+20240208 75 272 9577710 14
+20240209 3 3 3810 3
+20240210 4 4 23876 4
+20240211 2 2 2558 2
+20240212 2 2 2557 2
+20240213 5 5 12460 4
+20240214 2 2 2558 2
+20240216 4 4 5116 4
+20240217 2 2 2557 2
+20240218 2 2 2558 1
+20240219 26 281 11082992 7
+20240220 19 81 1992915 3
+20240221 208 407 17739753 7
+20240222 104 414 18967810 9
+20240226 73 216 11036939 6
+20240227 124 298 8485842 5
+20240228 113 153 8209032 6
+20240229 157 340 18809854 12
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+0s-30s 97
+5mn-15mn 7
+30mn-1h 15
+1h+ 11
+30s-2mn 10
+2mn-5mn 7
+15mn-30mn 12
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 37
+/template/AdminLTE/ 366 2551813 23 41
+/template/AdminLTE/designfatura.php 256 6399007 10 14
+/admin/gerirArtigos.php 167 3641865 7 11
+/template/AdminLTE/login.php 127 228353 79 67
+/admin/gerirFamilias.php 89 509338 2 3
+/admin/gerirFornecedores.php 87 490812 3 3
+/login.html 64 179604 19 5
+/valida.php 60 121900 9 1
+/admin/gerirProcedimento.php 44 244407 0 5
+/admin/gerirutilizadores.php 27 142708 0 2
+/template/AdminLTE/plugins/bs-stepper/css/bs-stepper.min.css.map 1 2004 0 0
+/template/AdminLTE/plugins/moment/moment.min.js.map 10 343310 0 0
+/template/AdminLTE/dist/js/adminlte.min.js.map 19 620573 0 0
+/template/AdminLTE/pages/gallery.html 1 6049 0 0
+/template/AdminLTE/pages/forms/advanced.html 9 99533 1 1
+/template/AdminLTE/plugins/bootstrap-colorpicker/js/bootstrap-colorpicker.min.js.map 1 55594 0 0
+/template/AdminLTE/plugins/pdfmake/pdfmake.min.js.map 19 20212785 0 1
+/template/AdminLTE/pages/UI/buttons.html 1 8446 0 0
+/template/AdminLTE/pages/forms/general.html 2 14818 0 0
+/template/AdminLTE/pages/UI/icons.html 3 13515 0 0
+/template/AdminLTE/pages/UI/general.html 5 62301 0 0
+/template/AdminLTE/pages/tables/simple.html 1 11790 0 0
+/template/AdminLTE/index3.html 10 70010 3 1
+/template/AdminLTE/dist/js/adminlte.js.map 9 366267 0 0
+/template/AdminLTE/plugins/bootstrap/js/bootstrap.bundle.min.js.map 11 940761 0 0
+/teste.php 10 7673 0 0
+/template/AdminLTE/plugins/bootstrap-colorpicker/css/bootstrap-colorpicker.min.css.map 1 8787 0 0
+/template/AdminLTE/tabela.html 1 10674 0 0
+/template/AdminLTE/plugins/bs-stepper/js/bs-stepper.min.js.map 1 5880 0 0
+/admin/gerirFatura.php 19 131198 2 1
+/template/AdminLTE/pages/tables/data.html 2 18260 1 0
+/erro.php 6 4710 0 1
+/template/AdminLTE/dist/css/adminlte.min.css.map 26 10358988 0 1
+/template/AdminLTE/index2.html 4 37308 0 0
+/template/AdminLTE/pages/forms/editors.html 5 27155 0 1
+/template/AdminLTE/indexold.php 1 7152 0 0
+/admin/faturaNova.php 6 5651 0 0
+END_SIDER

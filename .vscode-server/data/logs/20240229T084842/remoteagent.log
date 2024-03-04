@@ -1,0 +1,13 @@
+2024-02-29 08:48:42.361 [info] 
+
+
+
+
+2024-02-29 08:48:42.428 [info] Extension host agent started.
+2024-02-29 08:48:42.887 [info] [127.0.0.1][f812d929][ManagementConnection] New connection established.
+2024-02-29 08:48:42.914 [info] [127.0.0.1][34ae14fc][ExtensionHostConnection] New connection established.
+2024-02-29 08:48:43.398 [info] [127.0.0.1][34ae14fc][ExtensionHostConnection] <189323> Launched Extension Host Process.
+2024-02-29 08:53:42.430 [info] New EH opened, aborting shutdown
+2024-02-29 08:57:12.829 [error] Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:217:20)
+2024-02-29 08:57:12.867 [info] [127.0.0.1][f812d929][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...

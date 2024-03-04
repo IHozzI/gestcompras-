@@ -1,0 +1,79 @@
+2024-03-04 13:48:35.299 [info] Log level: Info
+2024-03-04 13:48:35.299 [info] Validating found git in: "git"
+2024-03-04 13:48:35.299 [info] Using git "2.25.1" from "git"
+2024-03-04 13:48:35.299 [info] > git rev-parse --show-toplevel [4ms]
+2024-03-04 13:48:35.299 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-03-04 13:48:35.299 [info] > git rev-parse --show-toplevel [12ms]
+2024-03-04 13:48:35.299 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-03-04 13:48:35.299 [info] > git rev-parse --show-toplevel [2ms]
+2024-03-04 13:48:35.299 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-03-04 13:48:35.299 [info] > git rev-parse --show-toplevel [2ms]
+2024-03-04 13:48:35.299 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-03-04 13:48:35.299 [info] > git rev-parse --show-toplevel [2ms]
+2024-03-04 13:48:35.299 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-03-04 13:48:35.299 [info] > git rev-parse --show-toplevel [2ms]
+2024-03-04 13:48:35.299 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-03-04 13:48:35.299 [info] > git rev-parse --show-toplevel [2ms]
+2024-03-04 13:48:35.299 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-03-04 13:48:35.299 [info] > git rev-parse --show-toplevel [2ms]
+2024-03-04 13:48:35.299 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-03-04 13:48:35.300 [info] > git rev-parse --show-toplevel [2ms]
+2024-03-04 13:48:35.300 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-03-04 13:48:35.300 [info] > git rev-parse --show-toplevel [2ms]
+2024-03-04 13:48:35.300 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-03-04 13:48:35.300 [info] > git rev-parse --show-toplevel [3ms]
+2024-03-04 13:48:35.300 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-03-04 13:48:35.300 [info] > git rev-parse --show-toplevel [5ms]
+2024-03-04 13:48:35.300 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-03-04 13:48:35.300 [info] > git rev-parse --show-toplevel [2ms]
+2024-03-04 13:48:35.300 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-03-04 13:48:35.300 [info] > git rev-parse --show-toplevel [2ms]
+2024-03-04 13:48:35.300 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-03-04 13:48:35.300 [info] > git rev-parse --show-toplevel [2ms]
+2024-03-04 13:48:35.300 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-03-04 13:48:35.300 [info] > git rev-parse --show-toplevel [2ms]
+2024-03-04 13:48:35.300 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-03-04 13:48:35.300 [info] > git rev-parse --show-toplevel [2ms]
+2024-03-04 13:48:35.300 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-03-04 13:49:25.610 [info] > git rev-parse --show-toplevel [14ms]
+2024-03-04 13:49:25.610 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-03-04 13:49:31.555 [info] > git rev-parse --show-toplevel [13ms]
+2024-03-04 13:49:31.555 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-03-04 13:58:08.174 [info] > git init [92ms]
+2024-03-04 13:58:08.189 [info] > git rev-parse --show-toplevel [2ms]
+2024-03-04 13:58:08.205 [info] > git rev-parse --git-dir --git-common-dir [2ms]
+2024-03-04 13:58:08.245 [info] Open repository: /home/gestcompras
+2024-03-04 13:58:08.267 [info] > git config --get commit.template [3ms]
+2024-03-04 13:58:08.283 [info] No remotes found in the git config file.
+2024-03-04 13:58:08.285 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [4ms]
+2024-03-04 13:58:08.286 [warning] No such branch: master.
+2024-03-04 13:58:08.625 [info] > git status -z -uall [325ms] (cancelled)
+2024-03-04 13:58:08.947 [info] > git check-ignore -v -z --stdin [2ms]
+2024-03-04 13:58:21.964 [info] > git config --get commit.template [20ms]
+2024-03-04 13:58:21.981 [info] No remotes found in the git config file.
+2024-03-04 13:58:21.985 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2024-03-04 13:58:21.985 [warning] No such branch: master.
+2024-03-04 13:58:25.123 [info] > git status -z -uall [3120ms] (cancelled)
+2024-03-04 13:58:26.617 [info] > git check-ignore -v -z --stdin [3ms]
+2024-03-04 13:58:29.723 [info] > git check-ignore -v -z --stdin [2ms]
+2024-03-04 13:59:15.390 [info] > git check-ignore -v -z --stdin [6ms]
+2024-03-04 13:59:41.312 [info] > git show --textconv HEAD:.awstats-htpasswd [30ms]
+2024-03-04 13:59:41.315 [info] > git ls-tree -l HEAD -- /home/gestcompras/.awstats-htpasswd [7ms]
+2024-03-04 13:59:41.315 [info] fatal: Not a valid object name HEAD
+2024-03-04 13:59:46.892 [info] > git add -A -- . [42417ms]
+2024-03-04 13:59:46.892 [info] fatal: unable to stat '.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/vscode-remote-lock.gestcompras.8b3775030ed1a69b13e4f4c628c612102e30a681': No such file or directory
+2024-03-04 13:59:46.937 [info] No remotes found in the git config file.
+2024-03-04 13:59:46.940 [info] > git config --get commit.template [22ms]
+2024-03-04 13:59:46.943 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [6ms]
+2024-03-04 13:59:46.943 [warning] No such branch: master.
+2024-03-04 13:59:50.468 [info] > git status -z -uall [3505ms] (cancelled)
+2024-03-04 14:00:08.133 [info] > git ls-tree -l HEAD -- /home/gestcompras/.awstats-htpasswd [3ms]
+2024-03-04 14:00:08.133 [info] fatal: Not a valid object name HEAD
+2024-03-04 14:00:21.052 [info] > git ls-tree -l HEAD -- /home/gestcompras/.awstats-htpasswd [3ms]
+2024-03-04 14:00:21.052 [info] fatal: Not a valid object name HEAD
+2024-03-04 14:00:24.964 [info] > git show --textconv :public_html/admin/faturaNova.php [27ms]
+2024-03-04 14:00:24.968 [info] > git ls-files --stage -- /home/gestcompras/public_html/admin/faturaNova.php [6ms]
+2024-03-04 14:00:25.229 [info] > git check-ignore -v -z --stdin [2ms]
+2024-03-04 14:00:31.553 [info] > git check-ignore -v -z --stdin [4ms]
+2024-03-04 14:01:09.188 [info] > git ls-files --stage -- /home/gestcompras/public_html/admin/faturaNova.php [3ms]
+2024-03-04 14:01:09.274 [info] > git show --textconv :public_html/admin/faturaNova.php [2ms]

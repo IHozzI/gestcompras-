@@ -77,3 +77,62 @@
 2024-03-04 14:00:31.553 [info] > git check-ignore -v -z --stdin [4ms]
 2024-03-04 14:01:09.188 [info] > git ls-files --stage -- /home/gestcompras/public_html/admin/faturaNova.php [3ms]
 2024-03-04 14:01:09.274 [info] > git show --textconv :public_html/admin/faturaNova.php [2ms]
+2024-03-04 14:02:00.934 [info] > git ls-files --stage -- /home/gestcompras/public_html/admin/faturaNova.php [8ms]
+2024-03-04 14:02:01.025 [info] > git cat-file -s a00e7c9efaa67014e06458d1a668cc006c624cf1 [3ms]
+2024-03-04 14:02:01.152 [info] > git show --textconv :public_html/admin/faturaNova.php [50ms]
+2024-03-04 14:02:24.788 [info] > git ls-files --stage -- /home/gestcompras/public_html/admin/faturaNova.php [11ms]
+2024-03-04 14:02:24.808 [info] > git cat-file -s a00e7c9efaa67014e06458d1a668cc006c624cf1 [3ms]
+2024-03-04 14:02:24.902 [info] > git show --textconv :public_html/admin/faturaNova.php [11ms]
+2024-03-04 14:04:17.265 [info] > git config --local branch.master.github-pr-owner-number [3ms]
+2024-03-04 14:04:17.266 [warning] git config failed: Failed to execute git
+2024-03-04 14:04:17.311 [info] > git config --local branch.master.remote [3ms]
+2024-03-04 14:04:17.311 [warning] git config failed: Failed to execute git
+2024-03-04 14:04:17.356 [info] > git config --local branch.master.merge [4ms]
+2024-03-04 14:04:17.356 [warning] git config failed: Failed to execute git
+2024-03-04 14:04:55.404 [info] > git config --local branch.master.github-pr-owner-number [5ms]
+2024-03-04 14:04:55.405 [warning] git config failed: Failed to execute git
+2024-03-04 14:04:55.448 [info] > git config --local branch.master.remote [6ms]
+2024-03-04 14:04:55.449 [warning] git config failed: Failed to execute git
+2024-03-04 14:04:55.491 [info] > git config --local branch.master.merge [4ms]
+2024-03-04 14:04:55.491 [warning] git config failed: Failed to execute git
+2024-03-04 14:05:20.709 [info] > git remote add origin https://github.com/IHozzI/gestcompras-.git [6ms]
+2024-03-04 14:05:20.791 [info] > git config --get commit.template [41ms]
+2024-03-04 14:05:20.795 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [8ms]
+2024-03-04 14:05:20.796 [warning] No such branch: main.
+2024-03-04 14:05:24.517 [info] > git status -z -uall [3681ms] (cancelled)
+2024-03-04 14:05:24.518 [info] > git push -u origin main [3091ms]
+2024-03-04 14:05:24.518 [info] error: src refspec main does not match any
+error: failed to push some refs to 'https://github.com/IHozzI/gestcompras-.git'
+2024-03-04 14:05:24.654 [info] > git config --get commit.template [10ms]
+2024-03-04 14:05:24.779 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [22ms]
+2024-03-04 14:05:24.788 [warning] No such branch: main.
+2024-03-04 14:05:29.421 [info] > git status -z -uall [4553ms] (cancelled)
+2024-03-04 14:05:30.353 [info] > git config --local branch.main.github-pr-owner-number [374ms]
+2024-03-04 14:05:30.353 [warning] git config failed: Failed to execute git
+2024-03-04 14:05:30.395 [info] > git config --local branch.main.remote [2ms]
+2024-03-04 14:05:30.395 [warning] git config failed: Failed to execute git
+2024-03-04 14:05:30.510 [info] > git config --local branch.main.merge [71ms]
+2024-03-04 14:05:30.510 [warning] git config failed: Failed to execute git
+2024-03-04 14:06:34.718 [info] > git -c user.useConfigOnly=true commit --quiet --allow-empty-message --file - [100ms]
+2024-03-04 14:06:34.718 [info] 
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: no email was given and auto-detection is disabled
+2024-03-04 14:06:34.761 [info] > git config --get-all user.name [3ms]
+2024-03-04 14:06:34.848 [info] > git config --get commit.template [42ms]
+2024-03-04 14:06:34.849 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2024-03-04 14:06:34.849 [warning] No such branch: main.
+2024-03-04 14:06:38.578 [info] > git status -z -uall [3691ms] (cancelled)
+2024-03-04 14:09:17.265 [info] > git config --local branch.main.github-pr-owner-number [2ms]
+2024-03-04 14:09:17.265 [warning] git config failed: Failed to execute git
+2024-03-04 14:10:22.836 [info] > git show --textconv :public_html/admin/faturaNova.php [50ms]
+2024-03-04 14:10:22.844 [info] > git ls-files --stage -- /home/gestcompras/public_html/admin/faturaNova.php [11ms]
+2024-03-04 14:10:22.890 [info] > git cat-file -s a00e7c9efaa67014e06458d1a668cc006c624cf1 [4ms]

@@ -1,0 +1,75 @@
+2024-03-04 14:11:40.758 [info] Log level: Info
+2024-03-04 14:11:40.758 [info] Validating found git in: "git"
+2024-03-04 14:11:40.758 [info] Using git "2.25.1" from "git"
+2024-03-04 14:11:40.758 [info] > git rev-parse --show-toplevel [7ms]
+2024-03-04 14:11:40.758 [info] > git rev-parse --git-dir --git-common-dir [18ms]
+2024-03-04 14:11:40.758 [info] Open repository: /home/gestcompras
+2024-03-04 14:11:40.778 [info] > git config --get commit.template [11ms]
+2024-03-04 14:11:40.780 [info] > git rev-parse --show-toplevel [6ms]
+2024-03-04 14:11:40.802 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [13ms]
+2024-03-04 14:11:40.803 [warning] No such branch: main.
+2024-03-04 14:11:41.208 [info] > git rev-parse --show-toplevel [409ms]
+2024-03-04 14:11:41.270 [info] > git status -z -uall [456ms] (cancelled)
+2024-03-04 14:11:41.271 [info] > git rev-parse --show-toplevel [52ms]
+2024-03-04 14:11:41.314 [info] > git rev-parse --show-toplevel [32ms]
+2024-03-04 14:11:41.355 [info] > git rev-parse --show-toplevel [9ms]
+2024-03-04 14:11:41.410 [info] > git rev-parse --show-toplevel [45ms]
+2024-03-04 14:11:41.434 [info] > git rev-parse --show-toplevel [10ms]
+2024-03-04 14:11:41.458 [info] > git rev-parse --show-toplevel [12ms]
+2024-03-04 14:11:41.475 [info] > git rev-parse --show-toplevel [7ms]
+2024-03-04 14:11:41.496 [info] > git rev-parse --show-toplevel [11ms]
+2024-03-04 14:11:41.508 [info] > git rev-parse --show-toplevel [2ms]
+2024-03-04 14:11:41.518 [info] > git rev-parse --show-toplevel [2ms]
+2024-03-04 14:11:41.531 [info] > git rev-parse --show-toplevel [4ms]
+2024-03-04 14:11:41.544 [info] > git rev-parse --show-toplevel [3ms]
+2024-03-04 14:11:41.555 [info] > git rev-parse --show-toplevel [2ms]
+2024-03-04 14:11:41.805 [info] > git check-ignore -v -z --stdin [17ms]
+2024-03-04 14:11:56.196 [info] > git config --get commit.template [46ms]
+2024-03-04 14:11:56.244 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [16ms]
+2024-03-04 14:11:56.245 [warning] No such branch: main.
+2024-03-04 14:12:00.499 [info] > git status -z -uall [4231ms] (cancelled)
+2024-03-04 14:12:20.964 [info] > git config --local branch.main.github-pr-owner-number [333ms]
+2024-03-04 14:12:20.964 [warning] git config failed: Failed to execute git
+2024-03-04 14:12:20.988 [info] > git config --local branch.main.remote [3ms]
+2024-03-04 14:12:20.988 [warning] git config failed: Failed to execute git
+2024-03-04 14:12:21.012 [info] > git config --local branch.main.merge [3ms]
+2024-03-04 14:12:21.012 [warning] git config failed: Failed to execute git
+2024-03-04 14:13:01.718 [info] > git check-ignore -v -z --stdin [26ms]
+2024-03-04 14:13:05.585 [info] > git -c user.useConfigOnly=true commit --quiet --allow-empty-message --file - [88ms]
+2024-03-04 14:13:05.585 [info] 
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: no email was given and auto-detection is disabled
+2024-03-04 14:13:05.603 [info] > git config --get-all user.name [1ms]
+2024-03-04 14:13:05.637 [info] > git config --get commit.template [17ms]
+2024-03-04 14:13:05.638 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-03-04 14:13:05.638 [warning] No such branch: main.
+2024-03-04 14:13:09.531 [info] > git status -z -uall [3877ms] (cancelled)
+2024-03-04 14:16:44.357 [info] > git -c user.useConfigOnly=true commit --quiet --allow-empty-message --file - [80ms]
+2024-03-04 14:16:44.357 [info] 
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: no email was given and auto-detection is disabled
+2024-03-04 14:16:44.380 [info] > git config --get-all user.name [2ms]
+2024-03-04 14:16:44.407 [info] > git config --get commit.template [3ms]
+2024-03-04 14:16:44.433 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-03-04 14:16:44.433 [warning] No such branch: main.
+2024-03-04 14:16:48.044 [info] > git status -z -uall [3591ms] (cancelled)
+2024-03-04 14:17:19.941 [info] > git config --local branch.main.github-pr-owner-number [3ms]
+2024-03-04 14:17:19.942 [warning] git config failed: Failed to execute git

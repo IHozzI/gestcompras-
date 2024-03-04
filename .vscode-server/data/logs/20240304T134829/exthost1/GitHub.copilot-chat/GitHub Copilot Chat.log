@@ -1,0 +1,21 @@
+2024-03-04 14:03:14.975 [info] [FetcherService] Using Helix fetcher
+2024-03-04 14:03:14.975 [info] [gitExtensionService] Initializing Git extension service.
+2024-03-04 14:03:14.975 [info] [gitExtensionService] Successfully activated the vscode.git extension.
+2024-03-04 14:03:14.975 [info] [gitExtensionService] Enablement state of the vscode.git extension: true.
+2024-03-04 14:03:14.975 [info] [gitExtensionService] Successfully registered Git commit message provider.
+2024-03-04 14:03:16.230 [info] [auth] GitHub login failed
+2024-03-04 14:03:16.238 [info] [extension] You are not signed in to GitHub. Please sign in to use Copilot.
+2024-03-04 14:03:17.019 [info] [auth] GitHub login failed
+2024-03-04 14:03:32.069 [info] [auth] Logged in as IHozzI
+2024-03-04 14:03:32.069 [info] [auth] Logged in as IHozzI
+2024-03-04 14:03:33.015 [info] [auth] Invalid copilot token: missing token: 403 
+2024-03-04 14:03:33.017 [info] [extension] GitHub Copilot could not connect to server. Extension activation failed: "No access to GitHub Copilot found. You are currently logged in as IHozzI."
+2024-03-04 14:03:33.018 [info] [auth] Invalid copilot token: missing token: 403 
+2024-03-04 14:04:54.473 [info] [auth] Logged in as IHozzI
+2024-03-04 14:04:54.473 [info] [auth] Logged in as IHozzI
+2024-03-04 14:04:54.473 [info] [auth] Logged in as IHozzI
+2024-03-04 14:04:55.605 [info] [auth] Invalid copilot token: missing token: 403 
+2024-03-04 14:04:55.618 [info] [auth] Invalid copilot token: missing token: 403 
+2024-03-04 14:04:55.622 [info] [extension] GitHub Copilot could not connect to server. Extension activation failed: "No access to GitHub Copilot found. You are currently logged in as IHozzI."
+2024-03-04 14:04:55.650 [info] [auth] Invalid copilot token: missing token: 403 
+2024-03-04 14:04:55.652 [info] [extension] GitHub Copilot could not connect to server. Extension activation failed: "No access to GitHub Copilot found. You are currently logged in as IHozzI."

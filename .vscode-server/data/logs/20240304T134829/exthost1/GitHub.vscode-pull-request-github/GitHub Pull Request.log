@@ -1,0 +1,31 @@
+2024-03-04 14:04:16.425 [warning] /home/gestcompras/.ssh/config: ENOENT: no such file or directory, open '/home/gestcompras/.ssh/config'
+2024-03-04 14:04:16.425 [info] Activation> Extension version: 0.82.0
+2024-03-04 14:04:17.202 [info] Looking for git repository
+2024-03-04 14:04:17.202 [info] Found 0 repositories during activation
+2024-03-04 14:04:17.202 [info] Git repository found, initializing review manager and pr tree view.
+2024-03-04 14:04:17.216 [info] Registering git provider
+2024-03-04 14:04:17.216 [info] Review+0> Validate state in progress
+2024-03-04 14:04:17.216 [info] Review+0> Validating state...
+2024-03-04 14:04:17.217 [warning] No remotes found. The following remotes are missing: origin, upstream
+2024-03-04 14:04:17.217 [info] No GitHub remotes found for folder /home/gestcompras
+2024-03-04 14:04:17.219 [info] Trying to use globalState for assignableUsers.
+2024-03-04 14:04:17.308 [info] Review+0> No matching pull request metadata found locally for current branch master
+2024-03-04 14:04:17.360 [info] Review+0> No matching pull request metadata found on GitHub for current branch master
+2024-03-04 14:04:17.416 [info] GlobalState does not exist for assignableUsers.
+2024-03-04 14:04:54.258 [warning] No remotes found. The following remotes are missing: origin, upstream
+2024-03-04 14:04:54.258 [info] No GitHub remotes found for folder /home/gestcompras
+2024-03-04 14:04:55.359 [info] Review+0> Validate state in progress
+2024-03-04 14:04:55.359 [info] Review+0> Validating state...
+2024-03-04 14:04:55.360 [warning] No remotes found. The following remotes are missing: origin, upstream
+2024-03-04 14:04:55.360 [info] No GitHub remotes found for folder /home/gestcompras
+2024-03-04 14:04:55.442 [info] Review+0> No matching pull request metadata found locally for current branch master
+2024-03-04 14:04:55.493 [info] Review+0> No matching pull request metadata found on GitHub for current branch master
+2024-03-04 14:05:21.390 [info] Review+0> Validate state in progress
+2024-03-04 14:05:21.391 [info] Review+0> Validating state...
+2024-03-04 14:05:21.392 [info] Repo state for file:///home/gestcompras changed.
+2024-03-04 14:05:21.392 [info] Repo file:///home/gestcompras has already been setup.
+2024-03-04 14:05:29.494 [info] Found GitHub remote for folder /home/gestcompras
+2024-03-04 14:05:29.930 [info] Trying to use globalState for assignableUsers.
+2024-03-04 14:05:30.393 [info] Review+0> No matching pull request metadata found locally for current branch main
+2024-03-04 14:05:30.512 [info] Review+0> No matching pull request metadata found on GitHub for current branch main
+2024-03-04 14:05:37.749 [info] GlobalState does not exist for assignableUsers.

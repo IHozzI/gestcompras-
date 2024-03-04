@@ -1,0 +1,8 @@
+{
+    "remote.SSH.remotePlatform": {
+        "alunos.esmonserrate.org": "linux"
+    },
+    "workbench.iconTheme": "vscode-icons",
+    "git.suggestSmartCommit": false,
+    "workbench.sideBar.location": "right"
+}

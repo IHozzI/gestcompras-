@@ -5,23 +5,45 @@
 * the Visual Studio Code Server License Terms (https://aka.ms/vscode-server-license) and
 * the Microsoft Privacy Statement (https://privacy.microsoft.com/en-US/privacystatement).
 *
-Server bound to 127.0.0.1:45137 (IPv4)
-Extension host agent listening on 45137
+Server bound to 127.0.0.1:39707 (IPv4)
+Extension host agent listening on 39707
 
-[13:53:11] 
-
-
+[08:58:44] 
 
 
-[13:53:11] Extension host agent started.
-[13:53:12] [127.0.0.1][396abfa8][ManagementConnection] New connection established.
-[13:53:12] [127.0.0.1][b686714e][ExtensionHostConnection] New connection established.
-[13:53:12] [127.0.0.1][b686714e][ExtensionHostConnection] <372115> Launched Extension Host Process.
+
+
+[08:58:45] Extension host agent started.
+[08:58:45] [/home/gestcompras/.vscode-server/extensions/github.vscode-pull-request-github-0.82.0]: Extension is not compatible with Code 1.85.2. Extension requires: ^1.87.0.
+[08:58:45] [127.0.0.1][ac8bd225][ManagementConnection] New connection established.
+[08:58:45] [127.0.0.1][c817e58c][ExtensionHostConnection] New connection established.
+[08:58:45] [127.0.0.1][c817e58c][ExtensionHostConnection] <734483> Launched Extension Host Process.
+[08:58:46] [/home/gestcompras/.vscode-server/extensions/github.vscode-pull-request-github-0.82.0]: Extension is not compatible with Code 1.85.2. Extension requires: ^1.87.0.
+[08:58:46] [/home/gestcompras/.vscode-server/extensions/github.vscode-pull-request-github-0.82.0]: Extension is not compatible with Code 1.85.2. Extension requires: ^1.87.0.
+[08:58:46] [/home/gestcompras/.vscode-server/extensions/github.vscode-pull-request-github-0.82.0]: Extension is not compatible with Code 1.85.2. Extension requires: ^1.87.0.
+[08:58:46] [/home/gestcompras/.vscode-server/extensions/github.vscode-pull-request-github-0.82.0]: Extension is not compatible with Code 1.85.2. Extension requires: ^1.87.0.
+[08:58:47] [/home/gestcompras/.vscode-server/extensions/github.vscode-pull-request-github-0.82.0]: Extension is not compatible with Code 1.85.2. Extension requires: ^1.87.0.
+[08:58:47] [/home/gestcompras/.vscode-server/extensions/github.vscode-pull-request-github-0.82.0]: Extension is not compatible with Code 1.85.2. Extension requires: ^1.87.0.
+[08:58:47] [/home/gestcompras/.vscode-server/extensions/github.vscode-pull-request-github-0.82.0]: Extension is not compatible with Code 1.85.2. Extension requires: ^1.87.0.
+[08:58:47] [/home/gestcompras/.vscode-server/extensions/github.vscode-pull-request-github-0.82.0]: Extension is not compatible with Code 1.85.2. Extension requires: ^1.87.0.
+[08:58:47] [/home/gestcompras/.vscode-server/extensions/github.vscode-pull-request-github-0.82.0]: Extension is not compatible with Code 1.85.2. Extension requires: ^1.87.0.
+[08:58:48] [/home/gestcompras/.vscode-server/extensions/github.vscode-pull-request-github-0.82.0]: Extension is not compatible with Code 1.85.2. Extension requires: ^1.87.0.
+[08:58:48] [/home/gestcompras/.vscode-server/extensions/github.vscode-pull-request-github-0.82.0]: Extension is not compatible with Code 1.85.2. Extension requires: ^1.87.0.
+[08:58:48] [/home/gestcompras/.vscode-server/extensions/github.vscode-pull-request-github-0.82.0]: Extension is not compatible with Code 1.85.2. Extension requires: ^1.87.0.
+[08:58:49] [/home/gestcompras/.vscode-server/extensions/github.vscode-pull-request-github-0.82.0]: Extension is not compatible with Code 1.85.2. Extension requires: ^1.87.0.
+[08:58:49] [/home/gestcompras/.vscode-server/extensions/github.vscode-pull-request-github-0.82.0]: Extension is not compatible with Code 1.85.2. Extension requires: ^1.87.0.
+[08:58:49] [/home/gestcompras/.vscode-server/extensions/github.vscode-pull-request-github-0.82.0]: Extension is not compatible with Code 1.85.2. Extension requires: ^1.87.0.
 New EH opened, aborting shutdown
-[13:58:11] New EH opened, aborting shutdown
-[14:02:33] [127.0.0.1][2ed26595][ManagementConnection] New connection established.
-[14:02:33] [127.0.0.1][0e068e46][ExtensionHostConnection] New connection established.
-[14:02:33] [127.0.0.1][0e068e46][ExtensionHostConnection] <374249> Launched Extension Host Process.
+[09:03:45] New EH opened, aborting shutdown
+[10:25:20] [127.0.0.1][03fe5e30][ManagementConnection] New connection established.
+[10:25:20] [127.0.0.1][ff7d6941][ExtensionHostConnection] New connection established.
+[10:25:20] [127.0.0.1][ff7d6941][ExtensionHostConnection] <746401> Launched Extension Host Process.
+[10:25:21] [/home/gestcompras/.vscode-server/extensions/github.vscode-pull-request-github-0.82.0]: Extension is not compatible with Code 1.85.2. Extension requires: ^1.87.0.
+[10:25:21] [/home/gestcompras/.vscode-server/extensions/github.vscode-pull-request-github-0.82.0]: Extension is not compatible with Code 1.85.2. Extension requires: ^1.87.0.
+[10:25:22] [/home/gestcompras/.vscode-server/extensions/github.vscode-pull-request-github-0.82.0]: Extension is not compatible with Code 1.85.2. Extension requires: ^1.87.0.
+[10:25:22] [/home/gestcompras/.vscode-server/extensions/github.vscode-pull-request-github-0.82.0]: Extension is not compatible with Code 1.85.2. Extension requires: ^1.87.0.
+[10:25:22] [/home/gestcompras/.vscode-server/extensions/github.vscode-pull-request-github-0.82.0]: Extension is not compatible with Code 1.85.2. Extension requires: ^1.87.0.
+[10:25:22] [/home/gestcompras/.vscode-server/extensions/github.vscode-pull-request-github-0.82.0]: Extension is not compatible with Code 1.85.2. Extension requires: ^1.87.0.
 rejected promise not handled within 1 second: CodeExpectedError: Could not find pty on pty host
 stack trace: CodeExpectedError: Could not find pty on pty host
     at A.U (/home/gestcompras/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/platform/terminal/node/ptyHostMain.js:43:32377)
@@ -37,7 +59,7 @@ stack trace: CodeExpectedError: Could not find pty on pty host
     at process.emit (node:events:513:28)
     at emit (node:internal/child_process:937:14)
     at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
-[14:02:35] Error [CodeExpectedError]: Could not find pty on pty host
+[10:25:22] Error [CodeExpectedError]: Could not find pty on pty host
     at A.U (/home/gestcompras/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/platform/terminal/node/ptyHostMain.js:43:32377)
     at A.updateTitle (/home/gestcompras/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/platform/terminal/node/ptyHostMain.js:43:27509)
     at T.<computed> (/home/gestcompras/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/platform/terminal/node/ptyHostMain.js:43:22735)
@@ -51,24 +73,13 @@ stack trace: CodeExpectedError: Could not find pty on pty host
     at process.emit (node:events:513:28)
     at emit (node:internal/child_process:937:14)
     at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
-[14:03:11] [/home/gestcompras/.vscode-server/extensions/github.copilot-chat-0.13.0]: Extension is not compatible with Code 1.85.2. Extension requires: ^1.87.0-20240219.
-[14:03:11] [/home/gestcompras/.vscode-server/extensions/github.copilot-chat-0.13.0]: Extension is not compatible with Code 1.85.2. Extension requires: ^1.87.0-20240219.
-[14:03:11] Extensions added from another source github.copilot-chat file:///home/gestcompras/.vscode-server/extensions/extensions.json
-[14:03:12] [/home/gestcompras/.vscode-server/extensions/github.copilot-chat-0.13.0]: Extension is not compatible with Code 1.85.2. Extension requires: ^1.87.0-20240219.
-[14:03:12] [/home/gestcompras/.vscode-server/extensions/github.copilot-chat-0.13.0]: Extension is not compatible with Code 1.85.2. Extension requires: ^1.87.0-20240219.
-[14:03:12] Extensions added from another source github.copilot file:///home/gestcompras/.vscode-server/extensions/extensions.json
-[14:03:58] Extensions removed from another source github.copilot-chat file:///home/gestcompras/.vscode-server/extensions/extensions.json
-[14:03:58] Extensions removed from another source github.copilot file:///home/gestcompras/.vscode-server/extensions/extensions.json
-[14:04:12] [/home/gestcompras/.vscode-server/extensions/github.vscode-pull-request-github-0.82.0]: Extension is not compatible with Code 1.85.2. Extension requires: ^1.87.0.
-[14:04:12] Extensions added from another source github.vscode-pull-request-github file:///home/gestcompras/.vscode-server/extensions/extensions.json
-[14:04:12] [/home/gestcompras/.vscode-server/extensions/github.vscode-pull-request-github-0.82.0]: Extension is not compatible with Code 1.85.2. Extension requires: ^1.87.0.
-[14:04:12] [/home/gestcompras/.vscode-server/extensions/github.vscode-pull-request-github-0.82.0]: Extension is not compatible with Code 1.85.2. Extension requires: ^1.87.0.
-[14:07:33] [127.0.0.1][b686714e][ExtensionHostConnection] <372115> Extension Host Process exited with code: 0, signal: null.
-[14:07:34] [/home/gestcompras/.vscode-server/extensions/github.vscode-pull-request-github-0.82.0]: Extension is not compatible with Code 1.85.2. Extension requires: ^1.87.0.
-[14:11:20] Extensions removed from another source github.vscode-pull-request-github file:///home/gestcompras/.vscode-server/extensions/extensions.json
-[14:12:17] [/home/gestcompras/.vscode-server/extensions/github.vscode-pull-request-github-0.82.0]: Extension is not compatible with Code 1.85.2. Extension requires: ^1.87.0.
-[14:12:17] Extensions added from another source github.vscode-pull-request-github file:///home/gestcompras/.vscode-server/extensions/extensions.json
-[14:12:18] [/home/gestcompras/.vscode-server/extensions/github.vscode-pull-request-github-0.82.0]: Extension is not compatible with Code 1.85.2. Extension requires: ^1.87.0.
-[14:12:34] [/home/gestcompras/.vscode-server/extensions/github.vscode-pull-request-github-0.82.0]: Extension is not compatible with Code 1.85.2. Extension requires: ^1.87.0.
-[14:18:22] [/home/gestcompras/.vscode-server/extensions/github.vscode-pull-request-github-0.82.0]: Extension is not compatible with Code 1.85.2. Extension requires: ^1.87.0.
-[14:24:22] [/home/gestcompras/.vscode-server/extensions/github.vscode-pull-request-github-0.82.0]: Extension is not compatible with Code 1.85.2. Extension requires: ^1.87.0.
+[10:25:23] [/home/gestcompras/.vscode-server/extensions/github.vscode-pull-request-github-0.82.0]: Extension is not compatible with Code 1.85.2. Extension requires: ^1.87.0.
+[10:25:23] [/home/gestcompras/.vscode-server/extensions/github.vscode-pull-request-github-0.82.0]: Extension is not compatible with Code 1.85.2. Extension requires: ^1.87.0.
+[10:25:23] [/home/gestcompras/.vscode-server/extensions/github.vscode-pull-request-github-0.82.0]: Extension is not compatible with Code 1.85.2. Extension requires: ^1.87.0.
+[10:25:24] [/home/gestcompras/.vscode-server/extensions/github.vscode-pull-request-github-0.82.0]: Extension is not compatible with Code 1.85.2. Extension requires: ^1.87.0.
+[10:25:24] [/home/gestcompras/.vscode-server/extensions/github.vscode-pull-request-github-0.82.0]: Extension is not compatible with Code 1.85.2. Extension requires: ^1.87.0.
+[10:25:24] [/home/gestcompras/.vscode-server/extensions/github.vscode-pull-request-github-0.82.0]: Extension is not compatible with Code 1.85.2. Extension requires: ^1.87.0.
+[10:25:25] [/home/gestcompras/.vscode-server/extensions/github.vscode-pull-request-github-0.82.0]: Extension is not compatible with Code 1.85.2. Extension requires: ^1.87.0.
+[10:25:25] [/home/gestcompras/.vscode-server/extensions/github.vscode-pull-request-github-0.82.0]: Extension is not compatible with Code 1.85.2. Extension requires: ^1.87.0.
+[10:25:25] [/home/gestcompras/.vscode-server/extensions/github.vscode-pull-request-github-0.82.0]: Extension is not compatible with Code 1.85.2. Extension requires: ^1.87.0.
+[10:30:20] [127.0.0.1][c817e58c][ExtensionHostConnection] <734483> Extension Host Process exited with code: 0, signal: null.

@@ -46,3 +46,23 @@
 2024-03-04 14:12:34.475 [error] [/home/gestcompras/.vscode-server/extensions/github.vscode-pull-request-github-0.82.0]: Extension is not compatible with Code 1.85.2. Extension requires: ^1.87.0.
 2024-03-04 14:18:22.541 [error] [/home/gestcompras/.vscode-server/extensions/github.vscode-pull-request-github-0.82.0]: Extension is not compatible with Code 1.85.2. Extension requires: ^1.87.0.
 2024-03-04 14:24:22.552 [error] [/home/gestcompras/.vscode-server/extensions/github.vscode-pull-request-github-0.82.0]: Extension is not compatible with Code 1.85.2. Extension requires: ^1.87.0.
+2024-03-04 14:30:22.574 [error] [/home/gestcompras/.vscode-server/extensions/github.vscode-pull-request-github-0.82.0]: Extension is not compatible with Code 1.85.2. Extension requires: ^1.87.0.
+2024-03-04 14:36:22.564 [error] [/home/gestcompras/.vscode-server/extensions/github.vscode-pull-request-github-0.82.0]: Extension is not compatible with Code 1.85.2. Extension requires: ^1.87.0.
+2024-03-04 14:42:22.577 [error] [/home/gestcompras/.vscode-server/extensions/github.vscode-pull-request-github-0.82.0]: Extension is not compatible with Code 1.85.2. Extension requires: ^1.87.0.
+2024-03-04 14:48:22.580 [error] [/home/gestcompras/.vscode-server/extensions/github.vscode-pull-request-github-0.82.0]: Extension is not compatible with Code 1.85.2. Extension requires: ^1.87.0.
+2024-03-04 14:54:22.601 [error] [/home/gestcompras/.vscode-server/extensions/github.vscode-pull-request-github-0.82.0]: Extension is not compatible with Code 1.85.2. Extension requires: ^1.87.0.
+2024-03-04 15:00:22.595 [error] [/home/gestcompras/.vscode-server/extensions/github.vscode-pull-request-github-0.82.0]: Extension is not compatible with Code 1.85.2. Extension requires: ^1.87.0.
+2024-03-04 15:12:03.480 [error] Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:217:20)
+2024-03-04 15:12:03.485 [info] [127.0.0.1][2ed26595][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+2024-03-04 15:29:14.424 [error] EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/gestcompras/.vscode-server/extensions/github.copilot-1.171.0.-37563f65.vsctmp'
+    at a.create (/home/gestcompras/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/server/node/server.main.js:104:29559)
+    at g (/home/gestcompras/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/server/node/server.main.js:104:29674)
+    at n.fb (/home/gestcompras/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/server/node/server.main.js:109:35177)
+    at n.stat (/home/gestcompras/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/server/node/server.main.js:109:27623)
+    at async h.stat (/home/gestcompras/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/server/node/server.main.js:109:14733)
+    at async _.tb (/home/gestcompras/.vscode-server/bin/8b3775030ed1a69b13e4f4c628c612102e30a681/out/vs/server/node/server.main.js:159:71700)
+2024-03-04 18:12:12.268 [info] [127.0.0.1][2ed26595][ManagementConnection] The reconnection grace time of 3h has expired, so the connection will be disposed.
+2024-03-04 18:12:14.469 [info] [127.0.0.1][0e068e46][ExtensionHostConnection] <374249> Extension Host Process exited with code: 0, signal: null.
+2024-03-04 18:12:14.469 [info] Last EH closed, waiting before shutting down
+2024-03-04 18:17:14.471 [info] Last EH closed, shutting down

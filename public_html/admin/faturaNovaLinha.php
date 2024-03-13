@@ -1,8 +1,11 @@
 <?php
 require "../ligacao.php";
 
-$CodigoArtigo=$_GET["CodigoArtigo"]; $Quantidade=$_GET["Quantidade"]; 
-$Preco=$_GET["Preco"]; $TaxadeIva=$_GET["TaxadeIva"]; $CodFatura=$_GET["CodFatura"];
+$CodigoArtigo= filter_input(INPUT_POST, 'CodigoArtigo', FILTER_SANITIZE_STRING);
+$Quantidade= filter_input(INPUT_POST, 'Quantidade', FILTER_SANITIZE_STRING);
+$Preco= filter_input(INPUT_POST, 'Preco', FILTER_SANITIZE_STRING);
+$TaxadeIva= filter_input(INPUT_POST, 'TaxadeIva', FILTER_SANITIZE_STRING);
+$CodFatura= filter_input(INPUT_POST, 'CodFatura', FILTER_SANITIZE_STRING); 
 $sql = "INSERT INTO `ListaArtigosFac`(`CodigoArtigo`, `Quantidade`, `Preco`, `TaxadeIva`, `CodFatura`) 
         VALUES (?,?,?,?,?)";
 $stmt=$conn->prepare($sql);

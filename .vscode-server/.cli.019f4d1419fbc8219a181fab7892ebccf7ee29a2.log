@@ -1,0 +1,6 @@
+Listening on 127.0.0.1:41443
+[2024-03-06 11:13:59] info Disposed of connection to running server.
+looking for token 139c3a94-e7f7-4060-95de-480addb88f5c, got Some("139c3a94-e7f7-4060-95de-480addb88f5c")
+[2024-03-06 11:13:59] info Checking /home/gestcompras/.vscode-server/cli/servers/Stable-019f4d1419fbc8219a181fab7892ebccf7ee29a2/log.txt and /home/gestcompras/.vscode-server/cli/servers/Stable-019f4d1419fbc8219a181fab7892ebccf7ee29a2/pid.txt for a running server...
+[2024-03-06 11:13:59] info Found running server (pid=606105)
+[2024-03-06 11:57:10] info Disposed of connection to running server.

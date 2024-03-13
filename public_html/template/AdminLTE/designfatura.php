@@ -13,6 +13,7 @@ if(isset($_REQUEST['Numero'])){
   $nif=$row['NIF'];
   $proc=$row['CodigoProcedimento'];
   $bn="hidden";
+  $numero=$_REQUEST['Numero'];
   //print_r($row) ;
   //$result = $conn->query($sql);
   //if ($result->num_rows > 0) 
@@ -26,6 +27,7 @@ if(isset($_REQUEST['Numero'])){
   $nif="";
   $proc="";
   $bn="";
+  $numero="";
 }
 ?>
 <!DOCTYPE html>
@@ -110,8 +112,8 @@ if(isset($_REQUEST['Numero'])){
               <div class="card-body">
                 <form action="/admin/faturaNova.php" method="get">
                   <div>
-                      <label for="numeroFatura">Número da Fatura:</label>
-                      <input type="hidden" id="numeroFatura" name="numeroFatura" required>
+                      <label for="CodFatura">Número da Fatura:</label>
+                      <input type="text" id="CodFatura" name="CodFatura" value="<?=$numero;?>">
                   </div>
                   <div>
                       <label for="dataFatura">Data:</label>
@@ -198,26 +200,22 @@ if(isset($_REQUEST['Numero'])){
                     <div class="col-md-4">
                       <div class="form-group">
                         <label>Quantidade</label>
-                        <input type="text" class="form-control" > 
+                        <input id="Quantidade" type="text" class="form-control" > 
                       </div>
                     </div>
                     <div class="col-md-4">
                       <div class="form-group">
                         <label>Preço unitário</label>
-                        <input type="text" class="form-control" >
+                        <input id="Preco" type="text" class="form-control" >
                       </div>
                     </div>
                     <div class="col-md-4">
                       <div class="form-group">
                         <label>IVA</label>
-                        <select class="form-control select2" style="width: 100%;" id="CodigoArtigo" name="CodigoArtigo">
-                          <option>Alabama</option>
-                          <option>Alaska</option>
-                          <option>California</option>
-                          <option>Delaware</option>
-                          <option>Tennessee</option>
-                          <option>Texas</option>
-                          <option>Washington</option>
+                        <select class="form-control select2" style="width: 100%;" id="TaxadeIva" name="TaxadeIva">
+                          <option value="1.05">5%</option>
+                          <option value="1.16">16%</option>
+                          <option value="1.32">32%</option>
                         </select>
                       </div>
                     </div>
@@ -226,7 +224,7 @@ if(isset($_REQUEST['Numero'])){
                     <div class="col-md-9">
                     </div>
                     <div class="col-md-3">
-                      <button type="button" class="btn btn-info" id="bnew" data-bs-toggle="modal" data-bs-target="#frmIU" data-do="i"><i class="fa-solid fa-plus"></i></button>
+                      <button type="button" class="btn btn-info" onclick="adicionarlinha()"><i class="fa-solid fa-plus">Gravar</i></button>
                     </div>
                   </div>
                 </form>
@@ -252,24 +250,36 @@ if(isset($_REQUEST['Numero'])){
                       <th>Ação</th>
                     </tr>
                   </thead>
+
                   <tbody>
+                    <?php
+                  $sql = "SELECT `CodigodaListadeArtigos`,   ListaArtigosFac.`CodigoArtigo`, Artigos.Nome , 
+                                `Quantidade`, `Preco`, `TaxadeIva`,(TaxadeIva-1)*100 AS iva, 
+                                Quantidade*Preco*TaxadeIva as totallinha, `CodFatura` FROM `ListaArtigosFac` 
+                          INNER JOIN Artigos ON ListaArtigosFac.CodigoArtigo=Artigos.CodigoArtigo WHERE `CodFatura`=?;";
+                  $stmt=$conn->prepare($sql);
+                  $stmt->bind_param("i", $numero);
+                  $stmt->execute();
+                  $result = $stmt->get_result();
+              
+                  $row = $result->fetch_all(MYSQLI_ASSOC);
+                  //print_r($row);
+                  foreach($row as $linha){
+                   ?>
+                   <tr>
+                      <td><?=$linha['Nome'];?></td>
+                      <td><?=$linha['Quantidade'];?></td>
+                      <td><?=$linha['Preco'];?>€</td>
+                      <td><?=$linha['TaxadeIva'];?>%</td>
+                      <td><?=$linha['totallinha'];?>€</td>
+                      <td>Icone para apagar</td>
+                    </tr>
+                   <?php
+
+                  }
+                  ?>
                     <!-- Aqui você pode adicionar as linhas da fatura com os itens comprados -->
-                    <tr>
-                      <td>aa</td>
-                      <td>12</td>
-                      <td>15€</td>
-                      <td>23%</td>
-                      <td>230€</td>
-                      <td>Icone para apagar</td>
-                    </tr>
-                    <tr>
-                      <td>aa</td>
-                      <td>12</td>
-                      <td>15€</td>
-                      <td>23%</td>
-                      <td>230€</td>
-                      <td>Icone para apagar</td>
-                    </tr>
+
                   </tbody>
                 </table>
               </div>
@@ -287,10 +297,12 @@ if(isset($_REQUEST['Numero'])){
   </div>
   <!-- /.content-wrapper -->
   <footer class="main-footer">
-    <div class="float-right d-none d-sm-block">
-      <b>Version</b> 3.2.0
-    </div>
-    <strong>Copyright &copy; 2014-2021 <a href="https://adminlte.io">AdminLTE.io</a>.</strong> All rights reserved.
+    <!-- 
+      <div class="float-right d-none d-sm-block">
+        <b>Version</b> 3.2.0
+      </div>
+      <strong>Copyright &copy; 2014-2021 <a href="https://adminlte.io">AdminLTE.io</a>.</strong> All rights reserved.
+    -->
   </footer>
 
   <!-- Control Sidebar -->
@@ -342,28 +354,69 @@ if(isset($_REQUEST['Numero'])){
 
 </script>
 <script>
-   function adicionafatura(){
 
-    var CodigoArtigo=document.getElementById('CodigoArtigo')
-      var dados = {
-        CodigoArtigo: CodigoArtigo,
-        Quantidade: responsePayload.picture,
-        Preco: responsePayload.email
-        TaxadeIva: responsePayload.email
-        CodFatura: responsePayload.email
-      };
-      $.post('valida.php', dados, function(retorna) {
-        if (retorna == 0) {
-          var msg = "O/A " + responsePayload.name + " não tem acesso ao sistema!";
-          document.getElementById('msg').innerHTML = msg;
-        } else {
-          //alert ("não deu erro não não")
-          //console.log(retorna);
-          window.location.href = retorna
-        }
-      });
-    } 
+    function adicionarlinha(){
+      //alert("erro")
+
+        var CodigoArtigo=document.getElementById('CodigoArtigo').value
+        var Quantidade=document.getElementById('Quantidade').value
+        var Preco=document.getElementById('Preco').value
+        var TaxadeIva=document.getElementById('TaxadeIva').value
+        var CodFatura=document.getElementById('CodFatura').value
+          var dados = {
+            CodigoArtigo: CodigoArtigo,
+            Quantidade:Quantidade,
+            Preco: Preco,
+            TaxadeIva: TaxadeIva,
+            CodFatura: CodFatura,
+          
+          };
+          //alert(dados.CodigoArtigo)
+          //alert(dados.Quantidade)
+          //alert(dados.Preco)
+          //alert(dados.TaxadeIva)
+          //alert(dados.CodFatura)
+          $.post('/admin/faturaNovaLinha.php', dados, function(retorna) {
+            if (retorna == 0) {
+              //Ocorreu um erro
+              alert("Ocorreu um erro")
+              //document.getElementById('msg').innerHTML = msg;
+            } else {
+              //alert (retorna)
+              //Apagar os valores  
+              document.getElementById('CodigoArtigo').value=""
+              document.getElementById('Quantidade').value=""
+              document.getElementById('Preco').value=""
+              document.getElementById('TaxadeIva').value=""x  
+              document.getElementById('CodFatura').value=""
+              //Atualizar as linhas
+              atualizarLinha()
+            }
+          });
+        } 
+
+        function atualizarLinha(){
+      //alert("erro")
+
+        var CodFatura=document.getElementById('CodFatura').value
+          var dados = {
+            CodFatura: CodFatura,          
+          };
+
+          //alert(dados.CodFatura)
+          $.post('/admin/FaturaAtualizarLinha', dados, function(retorna) {
+            if (retorna == 0) {
+              //Ocorreu um erro
+              alert("Ocorreu um erro")
+              //document.getElementById('msg').innerHTML = msg;
+            } else {
+              alert (retorna)
+              //Atualizar as linhas
+
+            }
+          });
+        } 
+
 </script>
 </body>
 </html>
-

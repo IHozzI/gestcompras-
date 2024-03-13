@@ -1,0 +1,22 @@
+*
+* Visual Studio Code Server
+*
+* By using the software, you agree to
+* the Visual Studio Code Server License Terms (https://aka.ms/vscode-server-license) and
+* the Microsoft Privacy Statement (https://privacy.microsoft.com/en-US/privacystatement).
+*
+Server bound to /tmp/code-65fa58db-e868-4d43-9940-2002abf388b7
+Extension host agent listening on /tmp/code-65fa58db-e868-4d43-9940-2002abf388b7
+
+[08:39:53] 
+
+
+
+
+[08:39:53] Extension host agent started.
+[08:39:53] [<unknown>][c95c81c0][ExtensionHostConnection] New connection established.
+[08:39:53] [<unknown>][18ef5578][ManagementConnection] New connection established.
+[08:39:54] [<unknown>][c95c81c0][ExtensionHostConnection] <606244> Launched Extension Host Process.
+New EH opened, aborting shutdown
+[08:44:53] New EH opened, aborting shutdown
+[09:47:17] Extensions added from another source ms-ceintl.vscode-language-pack-pt-br file:///home/gestcompras/.vscode-server/extensions/extensions.json

@@ -121,3 +121,99 @@
     at emit (node:internal/child_process:937:14)
     at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
 2024-03-04 14:25:07.516 [info] [127.0.0.1][a4f259b5][ExtensionHostConnection] The client has reconnected.
+2024-03-04 14:30:23.011 [info] [127.0.0.1][9c57743c][ManagementConnection] The client has reconnected.
+2024-03-04 14:30:24.108 [error] CodeExpectedError: Could not find pty on pty host
+    at D.U (/home/gestcompras/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:43:32578)
+    at D.updateIcon (/home/gestcompras/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:43:27763)
+    at T.<computed> (/home/gestcompras/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:43:22925)
+    at Object.call (/home/gestcompras/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:34:5061)
+    at u.s (/home/gestcompras/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:32:5165)
+    at u.q (/home/gestcompras/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:32:4667)
+    at l.value (/home/gestcompras/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:32:4065)
+    at m.y (/home/gestcompras/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:27:1906)
+    at m.fire (/home/gestcompras/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:27:2123)
+    at process._ (/home/gestcompras/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:25:10025)
+    at process.emit (node:events:514:28)
+    at emit (node:internal/child_process:937:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2024-03-04 14:30:24.109 [error] CodeExpectedError: Could not find pty on pty host
+    at D.U (/home/gestcompras/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:43:32578)
+    at D.updateTitle (/home/gestcompras/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:43:27710)
+    at T.<computed> (/home/gestcompras/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:43:22925)
+    at Object.call (/home/gestcompras/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:34:5061)
+    at u.s (/home/gestcompras/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:32:5165)
+    at u.q (/home/gestcompras/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:32:4667)
+    at l.value (/home/gestcompras/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:32:4065)
+    at m.y (/home/gestcompras/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:27:1906)
+    at m.fire (/home/gestcompras/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:27:2123)
+    at process._ (/home/gestcompras/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:25:10025)
+    at process.emit (node:events:514:28)
+    at emit (node:internal/child_process:937:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2024-03-04 14:30:24.109 [error] CodeExpectedError: Could not find pty on pty host
+    at D.U (/home/gestcompras/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:43:32578)
+    at D.updateTitle (/home/gestcompras/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:43:27710)
+    at T.<computed> (/home/gestcompras/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:43:22925)
+    at Object.call (/home/gestcompras/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:34:5061)
+    at u.s (/home/gestcompras/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:32:5165)
+    at u.q (/home/gestcompras/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:32:4667)
+    at l.value (/home/gestcompras/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:32:4065)
+    at m.y (/home/gestcompras/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:27:1906)
+    at m.fire (/home/gestcompras/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:27:2123)
+    at process._ (/home/gestcompras/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:25:10025)
+    at process.emit (node:events:514:28)
+    at emit (node:internal/child_process:937:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2024-03-04 14:30:25.038 [error] CodeExpectedError: Could not find pty on pty host
+    at D.U (/home/gestcompras/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:43:32578)
+    at D.updateTitle (/home/gestcompras/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:43:27710)
+    at T.<computed> (/home/gestcompras/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:43:22925)
+    at Object.call (/home/gestcompras/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:34:5061)
+    at u.s (/home/gestcompras/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:32:5165)
+    at u.q (/home/gestcompras/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:32:4667)
+    at l.value (/home/gestcompras/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:32:4065)
+    at m.y (/home/gestcompras/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:27:1906)
+    at m.fire (/home/gestcompras/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:27:2123)
+    at process._ (/home/gestcompras/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:25:10025)
+    at process.emit (node:events:514:28)
+    at emit (node:internal/child_process:937:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2024-03-04 14:30:41.538 [info] [127.0.0.1][a4f259b5][ExtensionHostConnection] The client has reconnected.
+2024-03-04 15:17:17.778 [error] Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:217:20)
+2024-03-04 15:17:17.784 [info] [127.0.0.1][9c57743c][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+2024-03-04 15:29:00.055 [info] [127.0.0.1][9c57743c][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+2024-03-04 15:29:00.093 [info] [127.0.0.1][bc5ad106][ManagementConnection] New connection established.
+2024-03-04 15:29:00.174 [info] [127.0.0.1][81ef9818][ExtensionHostConnection] New connection established.
+2024-03-04 15:29:00.285 [info] [127.0.0.1][81ef9818][ExtensionHostConnection] <390525> Launched Extension Host Process.
+2024-03-04 15:29:14.378 [error] EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/gestcompras/.vscode-server/extensions/github.copilot-1.171.0.-37563f65.vsctmp'
+    at a.create (/home/gestcompras/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/server/node/server.main.js:112:29426)
+    at $ (/home/gestcompras/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/server/node/server.main.js:112:29541)
+    at t.fb (/home/gestcompras/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/server/node/server.main.js:117:35644)
+    at t.stat (/home/gestcompras/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/server/node/server.main.js:117:28090)
+    at async u.stat (/home/gestcompras/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/server/node/server.main.js:117:15235)
+    at async ne.sb (/home/gestcompras/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/server/node/server.main.js:169:71063)
+2024-03-04 15:29:49.389 [info] [127.0.0.1][aefcf377][ManagementConnection] New connection established.
+2024-03-04 15:29:49.416 [info] [127.0.0.1][2b1bfd21][ExtensionHostConnection] New connection established.
+2024-03-04 15:29:49.431 [info] [127.0.0.1][2b1bfd21][ExtensionHostConnection] <391128> Launched Extension Host Process.
+2024-03-04 15:29:51.655 [error] CodeExpectedError: Could not find pty on pty host
+    at D.U (/home/gestcompras/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:43:32578)
+    at D.updateTitle (/home/gestcompras/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:43:27710)
+    at T.<computed> (/home/gestcompras/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:43:22925)
+    at Object.call (/home/gestcompras/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:34:5061)
+    at u.s (/home/gestcompras/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:32:5165)
+    at u.q (/home/gestcompras/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:32:4667)
+    at l.value (/home/gestcompras/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:32:4065)
+    at m.y (/home/gestcompras/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:27:1906)
+    at m.fire (/home/gestcompras/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:27:2123)
+    at process._ (/home/gestcompras/.vscode-server/bin/019f4d1419fbc8219a181fab7892ebccf7ee29a2/out/vs/platform/terminal/node/ptyHostMain.js:25:10025)
+    at process.emit (node:events:514:28)
+    at emit (node:internal/child_process:937:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2024-03-04 15:34:00.350 [info] [127.0.0.1][9c57743c][ManagementConnection] The reconnection short grace time of 5m has expired, so the connection will be disposed.
+2024-03-04 15:34:00.687 [info] [127.0.0.1][a4f259b5][ExtensionHostConnection] <377570> Extension Host Process exited with code: 0, signal: null.
+2024-03-04 15:45:44.602 [info] [127.0.0.1][bc5ad106][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-03-04 15:45:45.019 [info] [127.0.0.1][81ef9818][ExtensionHostConnection] <390525> Extension Host Process exited with code: 0, signal: null.
+2024-03-04 18:45:42.788 [info] [127.0.0.1][2b1bfd21][ExtensionHostConnection] <391128> Extension Host Process exited with code: 0, signal: null.
+2024-03-04 18:45:42.788 [info] Last EH closed, waiting before shutting down
+2024-03-04 18:50:42.790 [info] Last EH closed, shutting down
